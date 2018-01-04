@@ -14,7 +14,7 @@ import java.net.Socket;
 public class Client {
 
     public static void main(String[] args) {
-        String msg = "Hello Server";
+        String msg = "Hello Server niosocket";
         try{
             Socket socket = new Socket("127.0.0.1",8080);
             PrintWriter pw = new PrintWriter(socket.getOutputStream());
