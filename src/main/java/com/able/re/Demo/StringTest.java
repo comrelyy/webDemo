@@ -20,5 +20,6 @@ public class StringTest {
         System.out.println("sb2======="+sb2.toString());
         System.out.println("sb1======="+sb1.toString());
         System.out.println("str1======="+str1);
+        System.out.println(System.currentTimeMillis());
     }
 }

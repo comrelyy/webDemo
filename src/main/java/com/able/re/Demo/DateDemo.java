@@ -6,11 +6,11 @@ import java.util.Date;
 
 public class DateDemo {
     public static void main(String[] args){
-        SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat sf = new SimpleDateFormat("yyyy年MM月dd日");
         Date today = new Date();
-        Date beforeWeek =  DateUtils.addWeeks(today,-1);
+       // Date beforeWeek =  DateUtils.addMonths(today,3);
         System.out.println(sf.format(today));
-        System.out.println(sf.format(beforeWeek));
+        //System.out.println(sf.format(beforeWeek));
 
 
     }

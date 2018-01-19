@@ -106,7 +106,7 @@ public class InterceptorDemo implements HandlerInterceptor{
             }else {
                 for (int i= 0, len = results.length; i<len;i++) {
                     System.out.println("参数" + name + "修改之前的值：" + results[0]);
-                    results[i] = this.modifyParameter(results[i]);
+                   results[i] = this.modifyParameter(results[i]);
                 }
                 return results;
             }
