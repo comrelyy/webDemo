@@ -11,7 +11,7 @@ import java.io.*;
  * <p>
  * 依赖javabase64-1.3.1.jar
  * </p>
- * 
+ *
  * @author IceWee
  * @date 2012-5-19
  * @version 1.0
@@ -27,7 +27,7 @@ public class Base64Utils {
 	 * <p>
 	 * BASE64字符串解码为二进制数据
 	 * </p>
-	 * 
+	 *
 	 * @param base64
 	 * @return
 	 * @throws Exception
@@ -40,7 +40,7 @@ public class Base64Utils {
 	 * <p>
 	 * 二进制数据编码为BASE64字符串
 	 * </p>
-	 * 
+	 *
 	 * @param bytes
 	 * @return
 	 * @throws Exception
@@ -56,7 +56,7 @@ public class Base64Utils {
 	 * <p>
 	 * 大文件慎用，可能会导致内存溢出
 	 * </p>
-	 * 
+	 *
 	 * @param filePath
 	 *            文件绝对路径
 	 * @return
@@ -71,7 +71,7 @@ public class Base64Utils {
 	 * <p>
 	 * BASE64字符串转回文件
 	 * </p>
-	 * 
+	 *
 	 * @param filePath
 	 *            文件绝对路径
 	 * @param base64
@@ -88,7 +88,7 @@ public class Base64Utils {
 	 * <p>
 	 * 文件转换为二进制数组
 	 * </p>
-	 * 
+	 *
 	 * @param filePath
 	 *            文件路径
 	 * @return
@@ -117,7 +117,7 @@ public class Base64Utils {
 	 * <p>
 	 * 二进制数据写文件
 	 * </p>
-	 * 
+	 *
 	 * @param bytes
 	 *            二进制数据
 	 * @param filePath

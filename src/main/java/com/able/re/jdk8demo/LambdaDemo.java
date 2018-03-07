@@ -1,8 +1,5 @@
 package com.able.re.jdk8demo;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-import org.apache.commons.collections.Closure;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
@@ -29,7 +26,7 @@ public class LambdaDemo {
         return mf.getValue(str);
     }
 
-    public static void sys(Consumer<String> consumer,String str){
+    public static void sys(Consumer<String> consumer, String str){
         consumer.accept(str);
     }
 

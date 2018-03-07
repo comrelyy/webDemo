@@ -23,7 +23,7 @@ import java.util.Map;
  * 由于非对称加密速度极其缓慢，一般文件不使用它来加密而是使用对称加密，<br/>
  * 非对称加密算法可以用来对对称加密的密钥加密，这样保证密钥的安全也就保证了数据的安全
  * </p>
- * 
+ *
  * @author IceWee
  * @date 2012-4-26
  * @version 1.0
@@ -64,7 +64,7 @@ public class RSAUtils {
 	 * <p>
 	 * 生成密钥对(公钥和私钥)
 	 * </p>
-	 * 
+	 *
 	 * @return
 	 * @throws Exception
 	 */
@@ -85,12 +85,12 @@ public class RSAUtils {
 	 * <p>
 	 * 用私钥对信息生成数字签名
 	 * </p>
-	 * 
+	 *
 	 * @param data
 	 *            已加密数据
 	 * @param privateKey
 	 *            私钥(BASE64编码)
-	 * 
+	 *
 	 * @return
 	 * @throws Exception
 	 */
@@ -109,17 +109,17 @@ public class RSAUtils {
 	 * <p>
 	 * 校验数字签名
 	 * </p>
-	 * 
+	 *
 	 * @param data
 	 *            已加密数据
 	 * @param publicKey
 	 *            公钥(BASE64编码)
 	 * @param sign
 	 *            数字签名
-	 * 
+	 *
 	 * @return
 	 * @throws Exception
-	 * 
+	 *
 	 */
 	public static boolean verify(byte[] data, String publicKey, String sign)
 			throws Exception {
@@ -137,7 +137,7 @@ public class RSAUtils {
 	 * <P>
 	 * 私钥解密
 	 * </p>
-	 * 
+	 *
 	 * @param encryptedData
 	 *            已加密数据
 	 * @param privateKey
@@ -180,7 +180,7 @@ public class RSAUtils {
 	 * <p>
 	 * 公钥解密
 	 * </p>
-	 * 
+	 *
 	 * @param encryptedData
 	 *            已加密数据
 	 * @param publicKey
@@ -223,7 +223,7 @@ public class RSAUtils {
 	 * <p>
 	 * 公钥加密
 	 * </p>
-	 * 
+	 *
 	 * @param data
 	 *            源数据
 	 * @param publicKey
@@ -265,7 +265,7 @@ public class RSAUtils {
 	 * <p>
 	 * 私钥加密
 	 * </p>
-	 * 
+	 *
 	 * @param data
 	 *            源数据
 	 * @param privateKey
@@ -306,7 +306,7 @@ public class RSAUtils {
 	 * <p>
 	 * 获取私钥
 	 * </p>
-	 * 
+	 *
 	 * @param keyMap
 	 *            密钥对
 	 * @return
@@ -322,7 +322,7 @@ public class RSAUtils {
 	 * <p>
 	 * 获取公钥
 	 * </p>
-	 * 
+	 *
 	 * @param keyMap
 	 *            密钥对
 	 * @return
