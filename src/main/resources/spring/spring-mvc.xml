@@ -44,4 +44,5 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <import resource="classpath*:spring/beans-*.xml" />
 </beans>

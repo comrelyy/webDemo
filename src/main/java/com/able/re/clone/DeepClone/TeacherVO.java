@@ -14,10 +14,10 @@ public class TeacherVO implements Cloneable{
 
     @Override
     public String toString() {
-        return "StudentVO{" +
+        return "TeacherVO{" +
                 "id=" + id +
                 ", teacherName='" + teacherName + '\'' +
-                ", course ='" + course + '\'' +
+                ", course ='" + course.toString() + '\'' +
                 '}';
     }
 

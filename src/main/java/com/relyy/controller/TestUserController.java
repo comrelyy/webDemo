@@ -2,6 +2,8 @@ package com.relyy.controller;
 
 import com.relyy.VO.Json;
 import com.relyy.service.ITestService;
+import org.omg.CORBA.Environment;
+import org.springframework.context.EnvironmentAware;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -18,7 +20,7 @@ import java.util.Map;
  */
 @Controller
 @RequestMapping("/test")
-public class TestUserController {
+public class TestUserController implements EnvironmentAware {
 
     @Resource
     private ITestService testService;
@@ -74,5 +76,11 @@ public class TestUserController {
             //logger.error(, "", e);
         }
         return json;
+    }
+
+    private org.springframework.core.env.Environment environment;
+    @Override
+    public void setEnvironment(org.springframework.core.env.Environment environment) {
+        this.environment=environment;
     }
 }

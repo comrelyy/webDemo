@@ -16,6 +16,13 @@ public class Course implements Cloneable{
     }
 
     @Override
+    public String toString() {
+        return "Course{" +
+                "subject='" + subject + '\'' +
+                '}';
+    }
+
+    @Override
     public Object clone(){
         Course course = null;
 
