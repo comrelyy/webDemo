@@ -1,8 +1,5 @@
 package com.able.re.ThreadDemo.comsumerAndProducer;
 
-import com.able.re.redis.RedisInstance;
-import redis.clients.jedis.Jedis;
-
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -30,10 +27,10 @@ public class Demo {
 
         Producer p = new Producer(storage);
         service.submit(p);
-        service.submit(new Comsumer(storage));
-//        for (int i = 0; i < 2; i++) {
-//            System.out.println("消费线程"+i+",正在消费中。。。。。。。。。。。");
-//            service.submit(new Comsumer(storage));
-//        }
+        //service.submit(new Comsumer(storage));
+        for (int i = 0; i < 5; i++) {
+            System.out.println("消费线程"+i+",正在消费中。。。。。。。。。。。");
+            service.submit(new Comsumer(storage));
+        }
     }
 }

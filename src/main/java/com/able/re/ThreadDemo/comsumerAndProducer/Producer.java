@@ -1,7 +1,5 @@
 package com.able.re.ThreadDemo.comsumerAndProducer;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,7 +22,7 @@ public class Producer implements Runnable {
     public void run() {
         try{
             List<UserVideoStatistics> list = null;
-            while (page < 1000){
+            while (page < 100){
                 list = new ArrayList<>();
                 for (int i = page*10000 ; i < (page+1)*10000; i++){
                     list.add(new UserVideoStatistics(1L+i,1L+i,1+i,1+i,"1,23,4,6,7,8,9,"+i));

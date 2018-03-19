@@ -20,33 +20,25 @@ public class OddEvenSort {
     public static void sort(int[] arr){
 
         int length = arr.length;
-        boolean oddsort = false;
-        boolean evensort = false;
-
-        while (!oddsort || !evensort){
-            int base = 0;
-            oddsort = true;
-            evensort = true;
-
+        boolean eventFlag = true;
+        int base = 0;
+        while (eventFlag || base >0){
+            eventFlag = false;
             for (int i = base; i < length - 1 ; i +=2) {
-                if (arr[i] > arr[i+1]){
+                if (arr[i] > arr[i + 1]) {
                     int tmp = arr[i];
-                    arr[i] = arr[i+1];
-                    arr[i+1] = tmp;
-                    oddsort = false;
+                    arr[i] = arr[i + 1];
+                    arr[i + 1] = tmp;
+                    eventFlag = true;
                 }
             }
 
-            base = 1;
-
-            for (int i = base; i < length - 1 ; i +=2) {
-                if (arr[i] > arr[i+1]){
-                    int tmp = arr[i];
-                    arr[i] = arr[i+1];
-                    arr[i+1] = tmp;
-                    evensort = false;
-                }
+            if(base == 0 ){
+                base = 1;
+            }else {
+                base = 0;
             }
+
         }
     }
 }
