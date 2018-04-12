@@ -13,12 +13,12 @@ import java.util.function.Consumer;
 public class LambdaDemo {
 
     public static void main(String[] args) {
-        List<String> list = new ArrayList<String>();
-        //String newStr = toUpperString((str) -> str.toUpperCase(),"ytiuhoiho");
-        String newStr = toUpperString(String::toUpperCase,"ytiuhoiho");
+        List<String> list = new ArrayList<>();
+        String newStr = toUpperString((str) -> str.toUpperCase(),"ytiuhoiho");
+        String newStr2 = toUpperString(String::toUpperCase,"ytiuhoiho");
         System.out.println(newStr);
-        //sys(x -> System.out.println(x),"love");
-        //sys(System.out::println,"love");
+        sys(x -> System.out.println(x),"love");
+        sys(System.out::println,"love");
 
     }
 
