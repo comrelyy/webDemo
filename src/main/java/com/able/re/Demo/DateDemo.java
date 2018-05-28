@@ -3,6 +3,7 @@ import org.apache.commons.lang3.time.DateUtils;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -19,15 +20,15 @@ public class DateDemo {
 
 //        System.out.println(putIndex++ == takeIndex);
 //        System.out.println(putIndex);
+        try{
+            String endTime = "2018-05-24 23:30:00";
+            SimpleDateFormat form = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+            Date date = new Date();
+            System.out.println(date.compareTo(form.parse(endTime)) > 0);
 
-        StringBuffer squeue = new StringBuffer();
-        String s = null;
-        squeue.append(s);
-        List<String> list = new ArrayList<>();
-        list.add(squeue.toString());
-        squeue = null;
-        System.out.println(list.get(0));
-
+        }catch(Exception e){
+            e.printStackTrace();
+        }
 
     }
 }

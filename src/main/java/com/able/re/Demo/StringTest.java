@@ -1,6 +1,7 @@
 package com.able.re.Demo;
 
 import java.io.Console;
+import java.util.regex.Pattern;
 
 /**
  * 字符串测试类
@@ -25,7 +26,17 @@ public class StringTest {
 //        System.out.println(System.currentTimeMillis());
 
 
-        TestNull test = new TestNull();
-        System.out.println(test.getName());
+        //TestNull test = new TestNull();
+
+        String illegalChar = ",";
+
+        String regex = "^[0-9]$";
+        boolean matches = Pattern.matches(regex, illegalChar.substring(0,1));
+        if (!matches) {
+            System.out.println("没有匹配上");
+        }else {
+            System.out.println("匹配上");
+        }
+
     }
 }
