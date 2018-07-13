@@ -28,15 +28,31 @@ public class StringTest {
 
         //TestNull test = new TestNull();
 
-        String illegalChar = ",";
+        String illegalChar = "可以chou\'a\"ho\'su\"houboHOhonfoh";
+//
+//        String regex = "^[0-9]$";
+//        boolean matches = Pattern.matches(regex, illegalChar.substring(0,1));
+//        if (!matches) {
+//            System.out.println("没有匹配上");
+//        }else {
+//            System.out.println("匹配上");
+//        }
+        System.out.println(illegalChar.indexOf("\'"));
+        System.out.println(illegalChar.indexOf("\""));
+        illegalChar = illegalChar.replace("\'","*");
+        System.out.println(illegalChar);
+        illegalChar = illegalChar.replace("\"","*");
 
-        String regex = "^[0-9]$";
-        boolean matches = Pattern.matches(regex, illegalChar.substring(0,1));
-        if (!matches) {
-            System.out.println("没有匹配上");
-        }else {
-            System.out.println("匹配上");
-        }
+        System.out.println(illegalChar);
 
+        Object object = null;
+        System.out.println(object+"");
+
+        String userQuestionAnswerDataRelationCacheKey = getUserQuestionAnswerDataRelationCacheKey(182352370L, 384496, 8999, 1772537);
+        System.out.println(userQuestionAnswerDataRelationCacheKey);
+    }
+
+    public static String getUserQuestionAnswerDataRelationCacheKey(Long userId,Integer examId,Integer recruitId, Integer questionId) {
+        return String.format("%s:%s:%s:%s", userId, examId, recruitId, questionId);
     }
 }

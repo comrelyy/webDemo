@@ -1,0 +1,13 @@
+@startuml
+XmlBeanDefinitionReader -> InputStreamResource: 1 new InputStreamResource()
+InputStreamResource --> XmlBeanDefinitionReader
+
+XmlBeanDefinitionReader -> XmlBeanDefinitionReader : 2 registerBeanDefinition
+
+XmlBeanDefinitionReader -> BeanDefinitionDocumentReader : 3 createBeanDefinitionDocumentReader()
+BeanDefinitionDocumentReader --> XmlBeanDefinitionReader
+
+XmlBeanDefinitionReader -> DefaultNameSpaceHandlerResolver : 4 createDefaultNameSpaceHandlerResolver()
+
+
+@enduml

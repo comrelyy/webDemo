@@ -51,4 +51,8 @@ public class StudentVO implements Cloneable{
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
+
+    public static void main(String[] args) {
+        //address.setAddre("iiii");
+    }
 }

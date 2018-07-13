@@ -3,6 +3,7 @@ package com.relyy.controller;
 import com.relyy.VO.Json;
 import com.relyy.VO.MissionDetail;
 import com.relyy.dao.MissionDetailMapper;
+import com.utils.Decrypt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -64,6 +65,28 @@ public Json testDemo(Long id, String name, Integer age){
             //logger.error(, "", e);
         }
 
+        return json;
+    }
+
+    /**
+     * @desc
+     * @author: cairuirui
+     * @creae: a
+     */
+    @ResponseBody
+    @RequestMapping("/getEncrypt")
+    public Json getEncrypt(Integer examId,Integer recruitId) {
+
+        Json json = new Json();
+        try {
+            String params = recruitId+";"+examId+";0";
+            String ev = Decrypt.encrypt(params);
+            json.setSuccessValue(ev);
+        } catch (Exception e) {
+            e.printStackTrace();
+            json.setExceptionValue("");
+
+        }
         return json;
     }
 }

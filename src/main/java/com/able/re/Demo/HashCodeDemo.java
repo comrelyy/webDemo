@@ -17,5 +17,7 @@ public class HashCodeDemo {
         //System.out.println(person.hashCode());
        // System.out.println(person);
         System.out.println(1 >>> 16);
+
+
     }
 }

@@ -14,7 +14,7 @@ import javax.annotation.Resource;
  * @author cairuirui
  * @date 2017-07-17
  */
-@Service
+@Service("testService")
 public class TestServiceImpl implements ITestService{
 
     @Resource
@@ -26,5 +26,10 @@ public class TestServiceImpl implements ITestService{
         UserVO userVO = testMapper.selectById(id);
 
         return userVO;
+    }
+
+    @Override
+    public void printMsg() {
+        System.out.println("我被创建出来了。。。。。。。。。。");
     }
 }
