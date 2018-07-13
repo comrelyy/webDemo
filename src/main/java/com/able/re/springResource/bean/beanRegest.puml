@@ -8,6 +8,21 @@ XmlBeanDefinitionReader -> BeanDefinitionDocumentReader : 3 createBeanDefinition
 BeanDefinitionDocumentReader --> XmlBeanDefinitionReader
 
 XmlBeanDefinitionReader -> DefaultNameSpaceHandlerResolver : 4 createDefaultNameSpaceHandlerResolver()
+DefaultNameSpaceHandlerResolver --> BeanDefinitionDocumentReader : 5
+
+BeanDefinitionDocumentReader -> BeanDefinitionReaderUtils : 6 BeanDefinitionReaderUtils.registerBeanDefinition()
+
+BeanDefinitionReaderUtils -> BeanDefinitionReaderUtils : 7 registerBeanDefinition()
+
+BeanDefinitionReaderUtils -> BeanDefinitionRegister : 8 registerBeanDefinition()
+
+BeanDefinitionRegister -> BeanDefinitionRegister : 9 registerBeanDefinition()
+
+BeanDefinitionRegister --> BeanDefinitionReaderUtils
+
+BeanDefinitionReaderUtils --> BeanDefinitionDocumentReader
+
+BeanDefinitionDocumentReader --> XmlBeanDefinitionReader
 
 
 @enduml
