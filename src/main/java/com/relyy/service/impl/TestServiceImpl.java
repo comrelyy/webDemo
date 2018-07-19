@@ -3,7 +3,6 @@ package com.relyy.service.impl;
 import com.relyy.VO.UserVO;
 import com.relyy.dao.TestMapper;
 import com.relyy.service.ITestService;
-import org.junit.Test;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -17,6 +16,7 @@ import javax.annotation.Resource;
 @Service("testService")
 public class TestServiceImpl implements ITestService{
 
+    TestServiceImpl(){}
     @Resource
     private TestMapper testMapper;
 

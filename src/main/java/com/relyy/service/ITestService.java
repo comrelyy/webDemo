@@ -11,6 +11,7 @@ import com.relyy.VO.UserVO;
 
 public interface ITestService {
 
+
     public UserVO getUserById(int id);
 
     public void printMsg();

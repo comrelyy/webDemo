@@ -39,3 +39,4 @@ Thumbs.db
 *.diff
 *.patch
 *.tmp
+.idea/
