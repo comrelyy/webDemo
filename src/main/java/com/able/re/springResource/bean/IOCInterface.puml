@@ -1,0 +1,31 @@
+@startuml
+
+interface BeanFactory
+interface ListableBeanFactory
+interface HierarchicalBeanFactory
+interface ConfigurableBeanFactory
+interface MessageSource
+interface ResourceLoader
+interface ApplicationEventPublisher
+interface ApplicationContext
+interface ConfigurableApplicationContext
+interface WebApplicationContext
+interface ThemeSource
+interface AutowireCapableBeanFactory
+
+BeanFactory <|.. AutowireCapableBeanFactory
+BeanFactory <|.. ListableBeanFactory
+BeanFactory <|.. HierarchicalBeanFactory
+HierarchicalBeanFactory <|.. ConfigurableBeanFactory
+MessageSource <|.. ApplicationContext
+ResourceLoader <|.. ApplicationContext
+ApplicationEventPublisher <|.. ApplicationContext
+AutowireCapableBeanFactory <|.. ApplicationContext
+ListableBeanFactory <|.. ApplicationContext
+ConfigurableBeanFactory <|.. ApplicationContext
+ApplicationContext <|.. ConfigurableApplicationContext
+ApplicationContext <|.. WebApplicationContext
+ThemeSource <|.. WebApplicationContext
+
+
+@enduml

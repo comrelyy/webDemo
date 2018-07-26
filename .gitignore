@@ -8,6 +8,7 @@ mvnw.cmd
 *.ear
 hs_err_pid*
 rebel.xml
+rebel-remote.xml
 .idea
 *.iws
 *.iml
@@ -39,4 +40,3 @@ Thumbs.db
 *.diff
 *.patch
 *.tmp
-.idea/
