@@ -1,24 +1,41 @@
-//package com.able.re.redis;
-//
-//import redis.clients.jedis.Jedis;
-//
-///**
-// * $DISCRIPTION
-// *
-// * @author cairuirui
-// * @create 2018-03-05
-// */
-//public class RedisDemo {
-//
-//    public static void main(String[] args) {
+package com.able.re.redis;
+
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.Pipeline;
+
+/**
+ * $DISCRIPTION
+ *
+ * @author cairuirui
+ * @create 2018-03-05
+ */
+public class RedisDemo {
+
+    public static void main(String[] args) {
 //        //主机
 //        String host = "127.0.0.1";
 //
 //        //端口
 //        int port = 6379;
+
+        Jedis jedis = RedisInstance.getJedis();
+        String s = "se:9995:419627:170750879";
+
+        jedis.set(s.getBytes(),"homework".getBytes());
+        if (jedis.exists(s)){
+            System.out.println(true);
+        }
+//        for (int i = 1;i < 52; i ++) {
+//            Integer userId = 1;
 //
-//        Jedis jedis = new Jedis(host,port);
-//
-//        System.out.println(jedis.get("mystring"));
-//    }
-//}
+//            String s = "6629:34693:" + userId;
+//            jedis.lpush("onlineexam:submitExamFailed",s);
+//        }
+
+        //Pipeline pipeline = jedis.pipelined();
+
+        if (jedis != null){
+            jedis.close();
+        }
+    }
+}

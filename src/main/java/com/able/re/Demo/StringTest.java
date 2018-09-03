@@ -50,6 +50,17 @@ public class StringTest {
 
         String userQuestionAnswerDataRelationCacheKey = getUserQuestionAnswerDataRelationCacheKey(182352370L, 384496, 8999, 1772537);
         System.out.println(userQuestionAnswerDataRelationCacheKey);
+
+        String answer = "aoauho我是答案";
+        System.out.println(answer.indexOf("<p><br></p>"));
+        String replace = answer.replace("<p><br></p>", "");
+        System.out.println(replace.length());
+
+        String s = "abc";
+        String newS = new String("abc");
+        System.out.println(s.hashCode()+"--------"+ newS.hashCode());
+
+        System.out.println("1,2,5".contains("1"));
     }
 
     public static String getUserQuestionAnswerDataRelationCacheKey(Long userId,Integer examId,Integer recruitId, Integer questionId) {

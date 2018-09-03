@@ -14,6 +14,10 @@ public class VoDemo {
 
     public VoDemo(){}
 
+    public VoDemo(String name){
+        this.name = name;
+    }
+
     public int getId() {
         return id;
     }

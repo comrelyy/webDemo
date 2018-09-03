@@ -1,7 +1,10 @@
 package com.able.re.Demo;
 
+import com.able.re.clone.VoDemo;
+
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -48,16 +51,20 @@ public class ArrayListDemo {
         integers.add(15);
         integers.add(16);
         int size = integers.size();
+        String replace = integers.toString().replace("[", "").replace("]", "");
+        String[] split = replace.split(", ");
+
         System.out.println(integers.toString().replace("[", "").replace("]", ""));
-        //System.out.println(new Random().nextInt(size));
-//        Iterator<Integer> it = integers.iterator();
-//        while (it.hasNext()){
-//            Integer next = it.next();
-//            if (next % 2 == 0){
-//                //it.remove();
-//                integers.remove(next);
-//            }
-//        }
+
+        System.out.println(new Random().nextInt(size));
+        Iterator<Integer> it = integers.iterator();
+        while (it.hasNext()){
+            Integer next = it.next();
+            if (next % 2 == 0){
+                //it.remove();
+                integers.remove(next);
+            }
+        }
         //System.out.println(integers.indexOf(16));
         //integers.contains()
 //        for (Integer num : integers) {
@@ -71,6 +78,21 @@ public class ArrayListDemo {
 //                integers.remove(i);
 //            }
 //        }
+
+//        List<VoDemo> voDemos = new ArrayList<VoDemo>();
+//        voDemos.add(new VoDemo("2"));
+//        voDemos.add(new VoDemo("3"));
+//        voDemos.add(new VoDemo("4"));
+//        voDemos.add(new VoDemo("5"));
+//        System.out.println(voDemos);
+//        int i = 2;
+//        for (VoDemo voDemo : voDemos) {
+//            voDemo.setId(2);
+//            i++;
+//        }
+//        System.out.println(voDemos);
+
+
 
     }
 }

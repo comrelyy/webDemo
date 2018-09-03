@@ -13,9 +13,9 @@ public class IntegerTestDemo {
         int c = 27;
         Integer b = 129;
         //Integer d = 129;
-        int d = 129;
+       final int d = 129;
 
         System.out.println(a==c);
-        System.out.println(b==d);
+        System.out.println(d == 129);
     }
 }

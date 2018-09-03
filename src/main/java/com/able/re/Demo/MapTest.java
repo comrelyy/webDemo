@@ -34,8 +34,13 @@ public class MapTest {
 
         Map<String,Object> mapTest = new HashMap<String,Object>();
         test(mapTest);
-        for (Map.Entry<String,Object> entry : mapTest.entrySet()){
-            System.out.println(entry.getKey()+"---------"+entry.getValue());
+        Set<String> strings = mapTest.keySet();
+        ArrayList<String> arrayList = new ArrayList<String>(strings);
+        for (String string : arrayList) {
+            if (mapTest.containsKey("1213")){
+                mapTest.remove(string);
+                System.out.println("通过了");
+            }
         }
 
     }
