@@ -32,16 +32,22 @@ public class MapTest {
 //        vo2.getClass().cast(child);
 //        System.out.println(child.getName());
 
-        Map<String,Object> mapTest = new HashMap<String,Object>();
-        test(mapTest);
-        Set<String> strings = mapTest.keySet();
-        ArrayList<String> arrayList = new ArrayList<String>(strings);
-        for (String string : arrayList) {
-            if (mapTest.containsKey("1213")){
-                mapTest.remove(string);
-                System.out.println("通过了");
-            }
+        final Map<String,Object> mapTest = new HashMap<String,Object>();
+//        test(mapTest);
+//        Set<String> strings = mapTest.keySet();
+//        ArrayList<String> arrayList = new ArrayList<String>(strings);
+//        for (String string : arrayList) {
+//            if (mapTest.containsKey("1213")){
+//                mapTest.remove(string);
+//                System.out.println("通过了");
+//            }
+//        }
+
+        for (int i = 0; i <100 ; i++) {
+            mapTest.put(String.valueOf(i),i);
         }
+
+        System.out.println(mapTest);
 
     }
 
