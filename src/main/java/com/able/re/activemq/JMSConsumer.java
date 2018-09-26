@@ -42,7 +42,7 @@ public class JMSConsumer {
             destination = session.createQueue("Hello MQ");
 
             consumer = session.createConsumer(destination);
-
+            //consumer.setMessageListener();//添加一个监听，异步消费
             while (true){
                 TextMessage message =(TextMessage) consumer.receive(100000);
 

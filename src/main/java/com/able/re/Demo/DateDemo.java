@@ -21,10 +21,13 @@ public class DateDemo {
 //        System.out.println(putIndex++ == takeIndex);
 //        System.out.println(putIndex);
         try{
-            String endTime = "2018-05-24 23:30:00";
+            String endTime = "2018-09-21 00:00:00";
+            String endTime1 = "2018-09-22 23:59:59";
             SimpleDateFormat form = new SimpleDateFormat("yyyy-MM-dd HH:mm");
             Date date = new Date();
-            System.out.println(date.compareTo(form.parse(endTime)) > 0);
+            System.out.println(DateUtils.addDays(form.parse(endTime), -7).toString());
+            System.out.println(DateUtils.addDays(form.parse(endTime),-7).after(date));
+            System.out.println(form.parse(endTime1).before(date));
 
         }catch(Exception e){
             e.printStackTrace();
