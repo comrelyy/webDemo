@@ -260,6 +260,12 @@
       <version>2.1.18</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.rabbitmq</groupId>
+      <artifactId>amqp-client</artifactId>
+      <version>4.0.3</version>
+    </dependency>
+
   </dependencies>
 
   <build>

@@ -10,7 +10,7 @@ public class RunDemo {
 //
         t1.start();
 
-        Thread.sleep(1000);
+        Thread.sleep(20);
         t1.interrupt();
         System.out.println("是否已中断："+t1.getName()+"--"+t1.isInterrupted());
         //t2.start();
