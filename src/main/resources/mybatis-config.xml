@@ -19,6 +19,12 @@
         <setting name="aggressiveLazyLoading" value="false"/>
     </settings>
 
+    <!--自定义类型转换器注册-->
+    <typeHandlers>
+        <typeHandler handler="com.able.re.Mybatis.TypeHandler.MyTypeHandler" jdbcType="INTEGER" javaType="java.lang.Boolean"/>
+        <typeHandler handler="com.able.re.Mybatis.TypeHandler.StringArray2StringHandler" jdbcType="VARCHAR" javaType="[java.lang.String,"/>
+    </typeHandlers>
+
     <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC"></transactionManager>
@@ -30,6 +36,7 @@
             </dataSource>
         </environment>
     </environments>
+
     <mappers>
         <mapper resource="mapping/testMapper.xml"/>
     </mappers>

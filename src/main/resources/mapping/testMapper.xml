@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.relyy.dao.TestMapper">
     <resultMap id="baseResutMap" type="com.relyy.VO.UserVO">
-        <id column="ID" property="id"  javaType="Integer"/>
+        <id column="ID" property="id"  javaType="Integer" />
         <result column="USER_NAME" property="name"  javaType="java.lang.String"/>
         <result column="CREATE_TIME" property="createTime"  javaType="java.util.Date"/>
     </resultMap>
