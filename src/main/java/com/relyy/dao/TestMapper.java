@@ -1,6 +1,7 @@
 package com.relyy.dao;
 
 
+import com.relyy.VO.QuestionnaireVo;
 import com.relyy.VO.UserVO;
 import org.springframework.stereotype.Component;
 
@@ -15,4 +16,10 @@ public interface TestMapper {
      * @return
      */
     UserVO selectById(int id);
+
+    UserVO getUser(int id);
+
+    QuestionnaireVo getQuestionnaire(int id);
+
+    QuestionnaireVo getQuestionnaireLazy(int id);
 }

@@ -61,6 +61,12 @@ public class StringTest {
         System.out.println(s.hashCode()+"--------"+ newS.hashCode());
 
         System.out.println("1,2,5".contains("1"));
+
+        String lists = "[432287, 432288, 432289, 432290, 432291]";
+        String[] ssssplit = lists.replace("[", "").replace("]", "").split(", ");
+        for (String s1 : ssssplit) {
+            System.out.println(Integer.valueOf(s1));
+        }
     }
 
     public static String getUserQuestionAnswerDataRelationCacheKey(Long userId,Integer examId,Integer recruitId, Integer questionId) {

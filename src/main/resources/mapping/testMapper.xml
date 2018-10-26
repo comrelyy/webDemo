@@ -11,4 +11,38 @@
         SELECT * FROM TB_USER WHERE id =#{id}
     </select>
 
+    <select id="getUser" resultMap="baseResutMap" parameterType="Integer">
+        SELECT * FROM TB_USER WHERE id =#{id}
+    </select>
+    
+    <!--一对一关联查询 标签顺序:id,result,association..-->
+    <resultMap id="questionnaireMap" type="com.relyy.VO.QuestionnaireVo">
+        <id column="ID" property="id" javaType="Integer"/>
+        <!--<result column="USER_ID" property="userId" javaType="Integer"/>-->
+        <result column="COURSE_ID" property="courseId" javaType="Integer"/>
+        <result column="RECRUIT_ID" property="recruitId" javaType="Integer"/>
+        <result column="GRADE" property="grade" javaType="Integer"/>
+        <result column="COMMENT" property="comment" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result column="CREATE_TIME" property="createTime" javaType="java.util.Date"/>
+        <result column="UPDATE_TIME" property="updateTime" javaType="java.util.Date"/>
+        <result column="IS_DELETE" property="isDelete" javaType="Integer"/>
+        <!--<association property="user" javaType="com.relyy.VO.UserVO" fetchType="lazy">-->
+            <!--<id column="ID" property="id" javaType="Integer"/>-->
+            <!--<result column="USER_NAME" property="name" javaType="string" jdbcType="VARCHAR"/>-->
+        <!--</association>-->
+        <!--1对1关联 懒加载，1对多关联 使用collection标签-->
+        <association property="user" javaType="com.relyy.VO.UserVO" select="com.relyy.dao.TestMapper.getUser" column="USER_ID" fetchType="lazy">    <!--fetchType="lazy"-->
+            <id column="ID" property="id" javaType="Integer"/>
+            <result column="USER_NAME" property="name" javaType="string" jdbcType="VARCHAR"/>
+        </association>
+    </resultMap>
+
+    <select id="getQuestionnaire" resultMap="questionnaireMap" parameterType="Integer">
+        SELECT * FROM TB_USER S,TBL_QUESTIONNAIRE Q WHERE Q.ID=#{id} AND S.ID = Q.USER_ID
+    </select>
+
+    <select id="getQuestionnaireLazy" resultMap="questionnaireMap" parameterType="Integer">
+        SELECT * FROM TBL_QUESTIONNAIRE WHERE ID=#{id}
+    </select>
+
 </mapper>

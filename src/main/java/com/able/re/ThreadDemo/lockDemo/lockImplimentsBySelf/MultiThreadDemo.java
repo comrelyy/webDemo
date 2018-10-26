@@ -13,7 +13,8 @@ public class MultiThreadDemo {
     private int value = 0;
 
    // Lock lock = new ReentrantLock();
-   Lock lock = new MyLock();
+   //Lock lock = new MyLock();
+    Lock lock = new MyAQSLock();
     public int getValue(){
 
         lock.lock();
@@ -23,14 +24,14 @@ public class MultiThreadDemo {
     }
 
     public synchronized void a(){
-        lock.lock();
+        lock.tryLock();
         System.out.println("a执行了");
         b();
         lock.unlock();
     }
 
     public synchronized void b(){
-        lock.lock();
+        lock.tryLock();
         System.out.println("b执行了");
         lock.unlock();
     }
