@@ -22,7 +22,7 @@
     <!--自定义类型转换器注册-->
     <typeHandlers>
         <typeHandler handler="com.able.re.Mybatis.TypeHandler.MyTypeHandler" jdbcType="INTEGER" javaType="java.lang.Boolean"/>
-        <typeHandler handler="com.able.re.Mybatis.TypeHandler.StringArray2StringHandler" jdbcType="VARCHAR" javaType="[java.lang.String,"/>
+        <!--<typeHandler handler="com.able.re.Mybatis.TypeHandler.StringArray2StringHandler" jdbcType="VARCHAR" javaType="[java.lang.String"/>-->
     </typeHandlers>
 
     <environments default="development">

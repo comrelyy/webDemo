@@ -42,7 +42,25 @@ public class Demo4Introduction {
 
         //System.out.println(questionnaireLazy.getUser());
 //        System.out.println(questionnaireLazy.getUser().toString());
+
+        /**
+         * 查询参数设置
+         * 接口 ParameterHandler
+         *      方法： getParamentObject(); setParameterObject()
+         * 默认实现：DefaultParameterHandler
+         */
+//        QuestionnaireVo questionnaire = mapper.getQuestionnaireByUserId(2, 1);
+//        System.out.println(questionnaire);
         sqlSession.close();
+
+        /**
+         * sql执行结果的封装
+         *  接口 ResultSetHandler
+         *      方法：List<E> handleResultSet(Statement stmt) 处理Statement执行完成后产生的结果集，对结果集进行封装
+         *             handleOutPutParameters(CallableStatement cst) 处理存储过程执行之后的输出参数
+         *  默认实现：DefaultResultSetHandler
+         */
+
 
 
 

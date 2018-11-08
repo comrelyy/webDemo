@@ -41,8 +41,28 @@
         SELECT * FROM TB_USER S,TBL_QUESTIONNAIRE Q WHERE Q.ID=#{id} AND S.ID = Q.USER_ID
     </select>
 
+    <select id="getQuestionnaireByUserId" resultMap="questionnaireVOMap" >
+      SELECT * FROM TBL_QUESTIONNAIRE WHERE GRADE = #{grade,jdbcType=INTEGER} AND USER_ID = #{userId,jdbcType=INTEGER}
+    </select>
+
+    <resultMap id="questionnaireVOMap" type="com.relyy.VO.QuestionnaireVo">
+        <id column="ID" property="id" javaType="Integer"/>
+        <result column="USER_ID" property="userId" javaType="Integer"/>
+        <result column="COURSE_ID" property="courseId" javaType="Integer"/>
+        <result column="RECRUIT_ID" property="recruitId" javaType="Integer"/>
+        <result column="GRADE" property="grade" javaType="Integer"/>
+        <result column="COMMENT" property="comment" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result column="CREATE_TIME" property="createTime" javaType="java.util.Date"/>
+        <result column="UPDATE_TIME" property="updateTime" javaType="java.util.Date"/>
+        <result column="IS_DELETE" property="isDelete" javaType="Integer"/>
+    </resultMap>
     <select id="getQuestionnaireLazy" resultMap="questionnaireMap" parameterType="Integer">
         SELECT * FROM TBL_QUESTIONNAIRE WHERE ID=#{id}
     </select>
+
+    <!--存储过程的调用-->
+    <!--<select id="count" statementType="CALLABLE" resultType="java.lang.Integer">-->
+        <!--CALLABLE PROCEDURE NAME-->
+    <!--</select>-->
 
 </mapper>

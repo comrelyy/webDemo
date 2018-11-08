@@ -3,8 +3,7 @@ package com.able.re.sort;
 import java.util.Arrays;
 
 /**
- * $DISCRIPTION
- *
+ * 堆排序
  * @author cairuirui
  * @create 2018-03-27
  */
@@ -12,7 +11,7 @@ public class HeapSortDemo {
 
     public static void main(String[] args) {
 
-        int []arr = {4,6,8,5,9};
+        int []arr = {4,6,8,5,9,11,3,1,2,7,10};
         int length = arr.length;
         int size = length - 1;
 
@@ -48,11 +47,8 @@ public class HeapSortDemo {
         }
 
         if (index != currentNote){
-            int tmp = arr[currentNote];
-            arr[currentNote] = arr[index];
-            arr[index] = tmp;
-
-            sort(arr,index,size);
+            swap(arr,index,currentNote);
+            //sort(arr,index,size);
         }
     }
 
