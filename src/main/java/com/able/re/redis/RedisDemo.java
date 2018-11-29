@@ -3,6 +3,8 @@ package com.able.re.redis;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.Pipeline;
 
+import java.util.List;
+
 /**
  * $DISCRIPTION
  *
@@ -20,11 +22,13 @@ public class RedisDemo {
 
         Jedis jedis = RedisInstance.getJedis();
         String s = "se:9995:419627:170750879";
+        List<String> myqueuekey = jedis.brpop(0, "myqueuekey");
+        System.out.println(myqueuekey.get(1));
 
-        jedis.set(s.getBytes(),"homework".getBytes());
-        if (jedis.exists(s)){
-            System.out.println(true);
-        }
+//        jedis.set(s.getBytes(),"homework".getBytes());
+//        if (jedis.exists(s)){
+//            System.out.println(true);
+//        }
 //        for (int i = 1;i < 52; i ++) {
 //            Integer userId = 1;
 //

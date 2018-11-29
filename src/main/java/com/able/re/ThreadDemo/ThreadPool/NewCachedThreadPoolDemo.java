@@ -13,18 +13,28 @@ import java.util.concurrent.TimeUnit;
  */
 public class NewCachedThreadPoolDemo {
     public static void main(String[] args) throws InterruptedException {
-        ExecutorService threadPool = Executors.newCachedThreadPool();
-        for (int i = 0; i<3; i++){
+        //ExecutorService threadPool = Executors.newCachedThreadPool();
+        ExecutorService threadPool = Executors.newFixedThreadPool(5);
+        long l = System.currentTimeMillis();
+        for (int i = 0; i<10; i++){
             final int task = i;
-            TimeUnit.SECONDS.sleep(1);
+            System.out.println(i+"----------"+System.currentTimeMillis());
 
             //为每个任务创建线程
             threadPool.execute(new Runnable() {
                 @Override
                 public void run() {
                     System.out.println("线程名字： " + Thread.currentThread().getName() +  "  任务名为： "+task);
+                    try{
+                        TimeUnit.SECONDS.sleep(10);
+                    }catch(Exception e){
+                        e.printStackTrace();
+                    }
+                    System.out.println("线程名字： " + Thread.currentThread().getName() +  "  任务名为： "+task+"执行结束");
                 }
             });
         }
+        System.out.println("耗时-----"+(System.currentTimeMillis() - l));
+        threadPool.shutdown();
     }
 }

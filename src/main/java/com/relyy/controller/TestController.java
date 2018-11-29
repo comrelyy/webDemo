@@ -22,8 +22,8 @@ import java.util.concurrent.Executors;
 @RequestMapping("/test")
 class TestController{
 
-    @Autowired
-    private MissionDetailMapper missionDetailMapper;
+//    @Autowired
+//    private MissionDetailMapper missionDetailMapper;
 
 
 @ResponseBody
@@ -45,32 +45,32 @@ public Json testDemo(Long id, String name, Integer age){
      * @author: cairuirui
      * @reate: a
      */
-    @ResponseBody
-    @RequestMapping("/testbatch")
-    public Json testbatch() {
-        //logger.info(, "");
-        Json json = new Json();
-
-        try {
-            //int i = 370470;
-            List<MissionDetail> list = new ArrayList<>();
-            MissionDetail vo = null;
-            for (int i = 370468; i <= 370470; i++) {
-                vo = new MissionDetail();
-                vo.setExamId(i);
-                vo.setStudentExamId(370468);
-                list.add(vo);
-            }
-            missionDetailMapper.batchUpdateStuExamIdByExamId(list);
-            json.setSuccessValue("ok");
-        } catch (Exception e) {
-            e.printStackTrace();
-            json.setExceptionValue("no");
-            //logger.error(, "", e);
-        }
-
-        return json;
-    }
+//    @ResponseBody
+//    @RequestMapping("/testbatch")
+//    public Json testbatch() {
+//        //logger.info(, "");
+//        Json json = new Json();
+//
+//        try {
+//            //int i = 370470;
+//            List<MissionDetail> list = new ArrayList<>();
+//            MissionDetail vo = null;
+//            for (int i = 370468; i <= 370470; i++) {
+//                vo = new MissionDetail();
+//                vo.setExamId(i);
+//                vo.setStudentExamId(370468);
+//                list.add(vo);
+//            }
+//            missionDetailMapper.batchUpdateStuExamIdByExamId(list);
+//            json.setSuccessValue("ok");
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//            json.setExceptionValue("no");
+//            //logger.error(, "", e);
+//        }
+//
+//        return json;
+//    }
 
     /**
      * @desc

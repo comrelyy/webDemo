@@ -19,6 +19,6 @@ public class PercentDemo {
         System.out.println(percentStr);
         double watchPercent = Double.valueOf(percentStr) * 100;
         System.out.println(watchPercent);
-        System.out.println(watchPercent > 100 ? 100 : watchPercent);
+        System.out.println(watchPercent > 100 ? true : false);
     }
 }
