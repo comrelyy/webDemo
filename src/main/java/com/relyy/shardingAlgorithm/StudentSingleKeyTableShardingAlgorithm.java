@@ -29,7 +29,7 @@ public class StudentSingleKeyTableShardingAlgorithm implements SingleKeyTableSha
         Collection<String> result = new LinkedHashSet<>(tableNames.size());
         for (Integer value : shardingValue.getValues()) {
             for (String name : tableNames) {
-                if (name.endsWith("0".concat(String.valueOf(shardingValue.getValue() % 2)))){
+                if (name.endsWith("0".concat(String.valueOf(value % 2)))){
                     result.add(name);
                 }
             }

@@ -32,7 +32,7 @@ public class StudentSingleKeyDatabaseShardingAlgorithm implements SingleKeyDatab
         Collection<String> result = new LinkedHashSet<>(collection.size());
         for (Integer value : shardingValue.getValues()) {
             for (String avalilableTargetName : collection) {
-                if (avalilableTargetName.endsWith(value % 2 + "")){
+                if (avalilableTargetName.endsWith(value % 2 +"")){
                     result.add(avalilableTargetName);
                 }
             }
@@ -47,7 +47,7 @@ public class StudentSingleKeyDatabaseShardingAlgorithm implements SingleKeyDatab
         Range<Integer> range = (Range<Integer>) shardingValue.getValueRange();
         for (Integer i = range.lowerEndpoint(); i <= range.upperEndpoint(); i++){
             for (String availableTargetName : collection) {
-                if (availableTargetName.endsWith(i % 2 + "")) {
+                if (availableTargetName.endsWith(i % 2 +"")) {
                     result.add(availableTargetName);
                 }
             }

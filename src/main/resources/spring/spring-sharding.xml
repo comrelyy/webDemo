@@ -41,7 +41,7 @@
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="shardingDataSource"/>
-        <property name="mapperLocations" value="classpath:shardingMapper/*mapper.xm"/>
+        <property name="mapperLocations" value="classpath:shardingMapper/*Mapper.xml"/>
     </bean>
 
     <!--对数据源进行管理-->
@@ -94,9 +94,9 @@
                 <value>t_student_01</value>
             </list>
         </constructor-arg>
-        <constructor-arg index="2" value="dataSourceRule"/>
-        <constructor-arg index="3" value="studentDatabaseShardingStrategy"/>
-        <constructor-arg index="4" value="studentTableShardingStrategy"/>
+        <constructor-arg index="2" ref="dataSourceRule"/>
+        <constructor-arg index="3" ref="studentDatabaseShardingStrategy"/>
+        <constructor-arg index="4" ref="studentTableShardingStrategy"/>
     </bean>
 
     <bean id="studentDatabaseShardingStrategy" class="com.dangdang.ddframe.rdb.sharding.api.strategy.database.DatabaseShardingStrategy">

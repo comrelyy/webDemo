@@ -30,8 +30,8 @@
         </mvc:message-converters>
     </mvc:annotation-driven>
 
-    <context:component-scan base-package="com.relyy.controller"/>
-    <context:component-scan base-package="com.relyy.listener" />
+    <!--<context:component-scan base-package="com.relyy.controller"/>-->
+    <!--<context:component-scan base-package="com.relyy.listener" />-->
 
     <!--<mvc:interceptors>-->
         <!--<mvc:interceptor>-->
@@ -40,7 +40,9 @@
         <!--</mvc:interceptor>-->
 
     <!--</mvc:interceptors>-->
-    <import resource="classpath*:spring/application-*.xml" />
+    <import resource="classpath*:spring/spring-sharding*.xml" />
+    <import resource="classpath*:spring/application-redis.xml" />
+    <!--<import resource="classpath*:spring/application-*.xml" />-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>

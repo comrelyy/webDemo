@@ -29,7 +29,7 @@ public class UserSingleKeyTableShardingAlgorithm implements SingleKeyTableShardi
         Collection<String> result = new LinkedHashSet<>(tableNames.size());
         for (Integer value : shardingValue.getValues()) {
             for (String name : tableNames) {
-                if (name.endsWith("0".concat(String.valueOf(shardingValue.getValue() % 3)))){
+                if (name.endsWith("0".concat(String.valueOf(value % 3)))){
                     result.add(name);
                 }
             }
