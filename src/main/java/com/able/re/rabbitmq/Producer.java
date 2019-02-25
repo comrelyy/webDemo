@@ -48,7 +48,7 @@ public class Producer {
                 可以使用*和#来进行模糊匹配，routingkey必须是由点(.)隔开的一些列标识符
         BuiltinExchangeType.HEADERS;不依赖于bindingkey 与routingkey 的匹配来路由消息，而是根据消息中Headers属性进行匹配
          */
-        channel.exchangeDeclare(exchangeName,BuiltinExchangeType.DIRECT);
+       // channel.exchangeDeclare(exchangeName,BuiltinExchangeType.DIRECT);
         //将队列，交换机，路由键绑定起来,这里的routingkey可以理解为bindingkey
         channel.queueBind(queueName,exchangeName,"routing.key");
         //

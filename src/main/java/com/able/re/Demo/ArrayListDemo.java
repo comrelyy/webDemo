@@ -50,21 +50,38 @@ public class ArrayListDemo {
         integers.add(17);
         integers.add(15);
         integers.add(16);
+        integers.add(17);
+        integers.add(18);
+        integers.add(19);
+        integers.add(20);
+        integers.add(21);
+
         int size = integers.size();
-        String replace = integers.toString().replace("[", "").replace("]", "");
-        String[] split = replace.split(", ");
+       // String replace = integers.toString().replace("[", "").replace("]", "");
+        //String[] split = replace.split(", ");
 
-        System.out.println(integers.toString().replace("[", "").replace("]", ""));
-
-        System.out.println(new Random().nextInt(size));
-        Iterator<Integer> it = integers.iterator();
-        while (it.hasNext()){
-            Integer next = it.next();
-            if (next % 2 == 0){
-                //it.remove();
-                integers.remove(next);
+        //System.out.println(integers.toString().replace("[", "").replace("]", ""));
+        int index = 0;
+        int stepSize = 20;
+        while (index <= size) {
+            int endsize = index + stepSize;
+            if (endsize >= size) {
+                endsize = size;
             }
+            List<Integer> integers1 = integers.subList(index, endsize);
+            System.out.println(integers1);
+            index += stepSize;
         }
+
+//        System.out.println(new Random().nextInt(size));
+//        Iterator<Integer> it = integers.iterator();
+//        while (it.hasNext()){
+//            Integer next = it.next();
+//            if (next % 2 == 0){
+//                //it.remove();
+//                integers.remove(next);
+//            }
+//        }
         //System.out.println(integers.indexOf(16));
         //integers.contains()
 //        for (Integer num : integers) {

@@ -8,6 +8,10 @@ import java.util.concurrent.atomic.AtomicLong;
 public class TestInteger {
     public static void main(String[] args){
 
+        Integer big = 180;
+        Integer lower = 15;
+        System.out.println(big.compareTo(lower) > 0);
+
         //List<String> list = new ArrayList<String>();
 //        TestNull test = new TestNull();
 //        test.setId(128);

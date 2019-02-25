@@ -40,8 +40,8 @@
         <!--</mvc:interceptor>-->
 
     <!--</mvc:interceptors>-->
-    <import resource="classpath*:spring/spring-sharding*.xml" />
-    <import resource="classpath*:spring/application-redis.xml" />
+    <!--<import resource="classpath*:spring/spring-sharding*.xml" />-->
+    <import resource="classpath*:spring/spring-amqp_send.xml" />
     <!--<import resource="classpath*:spring/application-*.xml" />-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>
