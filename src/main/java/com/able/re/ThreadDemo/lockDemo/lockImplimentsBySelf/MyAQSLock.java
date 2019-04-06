@@ -92,7 +92,7 @@ public class MyAQSLock implements Lock {
 
     @Override
     public void unlock() {
-        myAQS.tryRelease(1);
+        myAQS.release(1);
     }
 
     @Override

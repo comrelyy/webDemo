@@ -32,6 +32,7 @@ public class ArrayListDemo {
 //        System.out.println(abcp[i]);
 
         ArrayList<Integer> integers = new ArrayList<>();
+        //integers.ensureCapacity();
 
         integers.add(1);
         integers.add(2);

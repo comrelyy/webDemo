@@ -6,37 +6,31 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/ArrayListDemo.java" line="75" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/ArrayListDemo.java" line="76" />
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/RunableDemo.java" line="11" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/List/SingleList.java" line="59" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0ed7e78-be25-4a32-9810-18f4ca75f432" name="Default" comment="jdk源码方法测试jdk源码方法测试">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/SkipList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binarySearch/BinarySearchDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binarySearch/BinarySearchExtend.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/CompareDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/CompareVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/Number2ChineseUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/TimeDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/relyy/VO/rabbitmqTestVo/AssignationMakeUpExamVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/relyy/VO/rabbitmqTestVo/StuSetExamTime.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/relyy/VO/rabbitmqTestVo/StudiedExamMqDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/relyy/rabbitMqReciever/AssignationMakeUpExamForUserComsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-amqp_send.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/relyy/RabbitMqSendTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/webDemo_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/webDemo_war_exploded.xml" />
+    <list default="true" id="a0ed7e78-be25-4a32-9810-18f4ca75f432" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/List/CheckBrackets.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/List/SingleList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/String/GroupWords.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binaryTreeTraversal/BinaryTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binaryTreeTraversal/BinaryTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binaryTreeTraversal/LevelTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/AnotherDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/JsonPraseDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/ObjectReferenceDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/ThreadLocalDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/lockDemo/CountDownLatchDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/ArrayListDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/ArrayListDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/DateDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/DateDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/IntegerTestDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/IntegerTestDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/PercentDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/PercentDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/CompareDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/CompareDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/TestInteger.java" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/TestInteger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/TijiaoDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/Demo/TijiaoDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/able/re/rabbitmq/Producer.java" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/rabbitmq/Producer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/utils/Decrypt.java" afterPath="$PROJECT_DIR$/src/main/java/com/utils/Decrypt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webDemo.iml" afterPath="$PROJECT_DIR$/webDemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/countDownLatchDemo/MainDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/countDownLatchDemo/MainDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/lockDemo/lockImplimentsBySelf/MyAQSLock.java" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/lockDemo/lockImplimentsBySelf/MyAQSLock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/able/re/redis/RedisDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/redis/RedisDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/able/re/redis/RedisInstance.java" afterPath="$PROJECT_DIR$/src/main/java/com/able/re/redis/RedisInstance.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,89 +71,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserSingleKeyTableShardingAlgorithm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/relyy/shardingAlgorithm/UserSingleKeyTableShardingAlgorithm.java">
+      <file leaf-file-name="ThreadLocal.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/ThreadLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TijiaoDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/TijiaoDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="14" column="159" lean-forward="false" selection-start-line="14" selection-start-column="159" selection-end-line="14" selection-end-column="159" />
-              <caret line="15" column="159" lean-forward="false" selection-start-line="15" selection-start-column="159" selection-end-line="15" selection-end-column="159" />
-              <caret line="16" column="159" lean-forward="false" selection-start-line="16" selection-start-column="159" selection-end-line="16" selection-end-column="159" />
-              <caret line="17" column="159" lean-forward="false" selection-start-line="17" selection-start-column="159" selection-end-line="17" selection-end-column="159" />
-              <caret line="18" column="159" lean-forward="false" selection-start-line="18" selection-start-column="159" selection-end-line="18" selection-end-column="159" />
-              <caret line="19" column="159" lean-forward="false" selection-start-line="19" selection-start-column="159" selection-end-line="19" selection-end-column="159" />
-              <caret line="20" column="159" lean-forward="false" selection-start-line="20" selection-start-column="159" selection-end-line="20" selection-end-column="159" />
-              <caret line="21" column="159" lean-forward="false" selection-start-line="21" selection-start-column="159" selection-end-line="21" selection-end-column="159" />
-              <caret line="22" column="159" lean-forward="false" selection-start-line="22" selection-start-column="159" selection-end-line="22" selection-end-column="159" />
-              <caret line="23" column="159" lean-forward="false" selection-start-line="23" selection-start-column="159" selection-end-line="23" selection-end-column="159" />
+            <state relative-caret-position="4356">
+              <caret line="162" column="49" lean-forward="false" selection-start-line="162" selection-start-column="41" selection-end-line="162" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EncryptDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/EncryptDemo.java">
+      <file leaf-file-name="MainDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/countDownLatchDemo/MainDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="1650">
+              <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Decrypt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/Decrypt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
-              <caret line="28" column="71" lean-forward="false" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DateDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/DateDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuestionnaireVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/relyy/VO/QuestionnaireVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/relyy/dao/TestMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EntityCopy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/EntityCopy.java">
+      <file leaf-file-name="ReferenceDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/ReferenceDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -168,51 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SkipList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/SkipList.java">
+      <file leaf-file-name="ObjectReferenceDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/ObjectReferenceDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2343">
-              <caret line="73" column="7" lean-forward="false" selection-start-line="71" selection-start-column="6" selection-end-line="73" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Number2ChineseUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/Number2ChineseUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1782">
-              <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntegerTestDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/IntegerTestDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayListDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/ArrayListDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2211">
-              <caret line="72" column="29" lean-forward="false" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/TimeDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="24" column="79" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="79" />
+            <state relative-caret-position="528">
+              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -220,98 +113,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompareDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/CompareDemo.java">
+      <file leaf-file-name="JsonPraseDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/JsonPraseDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1221">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="424">
+              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeakReference.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/ref/WeakReference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1056">
+              <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1456#1457#0" expanded="true" />
+                <element signature="e#1487#1488#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompareVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/CompareVo.java">
+      <file leaf-file-name="MyThread1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/MyThread1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-              <folding>
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#722#723#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Date.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Date.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18810">
-              <caret line="616" column="0" lean-forward="false" selection-start-line="616" selection-start-column="0" selection-end-line="616" selection-end-column="0" />
+            <state relative-caret-position="66">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DateUtils.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar!/org/apache/commons/lang3/time/DateUtils.class">
+      <file leaf-file-name="ExecutorLifeCycle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/ThreadPool/ExecutorLifeCycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2310">
-              <caret line="81" column="55" lean-forward="false" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
+            <state relative-caret-position="330">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping2/UserMapper.xml">
+      <file leaf-file-name="MyThread2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/MyThread2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="66">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/testMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-              <folding>
-                <marker date="1540887517892" expanded="true" signature="589:626" ph="SELECT * FRO... TB_USER" />
-                <marker date="1540887517892" expanded="true" signature="725:762" ph="SELECT * FRO... TB_USER" />
-                <marker date="1540887517892" expanded="true" signature="2422:2503" ph="SELECT * FRO... TB_USER" />
-                <marker date="1540887517892" expanded="true" signature="2600:2712" ph="SELECT * FRO... TBL_QUESTIONNAIRE" />
-                <marker date="1540887517892" expanded="true" signature="3626:3672" ph="SELECT * FRO... TBL_QUESTIONNAIRE" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBaseService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/relyy/TestBaseService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/relyy/Test.java">
+      <file leaf-file-name="RunableDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/RunableDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -320,109 +176,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShardingJdbcTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/relyy/ShardingJdbcTest.java">
+      <file leaf-file-name="RunDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/RunDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="61" column="9" lean-forward="false" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            <state relative-caret-position="66">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MissionDetailMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/MissionDetailMapper.xml">
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="38" column="20" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="38" selection-end-column="20" />
+            <state relative-caret-position="22836">
+              <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
               <folding>
-                <marker date="1520411559705" expanded="true" signature="1843:1992" ph="select from TBL_MISSION_DETAIL" />
-                <marker date="1520411559705" expanded="true" signature="5285:6995" ph="update TBL_M... " />
-                <marker date="1520411559705" expanded="true" signature="7809:8034" ph="update TBL_M... " />
-                <marker date="1520411559705" expanded="true" signature="8106:8144" ph="SELECT MAX(I... TBL_MISSION_DETAIL" />
-                <marker date="1520411559705" expanded="true" signature="8217:8295" ph="SELECT ID FR... TBL_MISSION_DETAIL" />
-                <marker date="1520411559705" expanded="true" signature="8378:8475" ph="SELECT SUM(W... TBL_MISSION_DETAIL" />
-                <marker date="1520411559705" expanded="true" signature="8589:8708" ph="SELECT ID, O... TBL_MISSION_DETAIL" />
-                <marker date="1520411559705" expanded="true" signature="8804:8968" ph="SELECT DISTI... TBL_MISSION_DETAIL" />
-                <marker date="1520411559705" expanded="true" signature="9143:9467" ph="update TBL_M... " />
+                <element signature="e#15704#15705#0" expanded="true" />
+                <element signature="e#15770#15771#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-mybatis.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/application-mybatis.xml">
+      <file leaf-file-name="Supplier.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/function/Supplier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1947">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="561">
+              <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <file leaf-file-name="ThreadLocalDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/ThreadLocalDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/shardingMapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="12" column="63" lean-forward="false" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-              <folding>
-                <marker date="1543543633060" expanded="true" signature="589:669" ph="insert into t_user... " />
-                <marker date="1543543633060" expanded="true" signature="741:790" ph="select from t_user" />
-                <marker date="1543543633060" expanded="true" signature="868:1047" ph="select from t_user" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/shardingMapper/StudentMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1543493582040" expanded="true" signature="601:681" ph="insert into t_student... " />
-                <marker date="1543493582040" expanded="true" signature="753:805" ph="select from t_student" />
-                <marker date="1543493582040" expanded="true" signature="886:1071" ph="select from t_student" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-sharding-database.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-sharding-database.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-sharding.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-sharding.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2739">
-              <caret line="83" column="73" lean-forward="false" selection-start-line="83" selection-start-column="73" selection-end-line="83" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14553">
-              <caret line="474" column="16" lean-forward="false" selection-start-line="474" selection-start-column="13" selection-end-line="474" selection-end-column="16" />
+            <state relative-caret-position="1518">
+              <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -454,12 +245,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>RandomAccess</find>
-      <find>grow</find>
-      <find>capacityIncrement</find>
-      <find>int newCapacity = oldCapacity + (oldCapacity &gt;&gt; 1);</find>
-      <find>resize</find>
-      <find>integers</find>
       <find>getEn</find>
       <find>getEnt</find>
       <find>Creating shared instance of singleton bean</find>
@@ -482,8 +267,14 @@
       <find>监</find>
       <find>监听</find>
       <find>SingleKeyDatabaseShardingAlgorithm</find>
+      <find>rea</find>
+      <find>release</find>
       <find>add</find>
+      <find>Size</find>
+      <find>size</find>
+      <find>Node</find>
       <find>get</find>
+      <find>set</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -503,23 +294,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/relyy/listener/QueueComsumer2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/EncryptDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/able/re/Ehcache/TestDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/ehcache.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/DubboDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/relyy/VO/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/relyy/VO/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/relyy/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/relyy/service/IStudentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/relyy/shardingMapper/StudentMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/relyy/shardingMapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/relyy/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/shardingMapper/StudentMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-database.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-sharding.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/application-mybatis.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-sharding-database.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc_sharding.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/shardingMapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/utils/DefaultKeyGenerator.java" />
@@ -543,17 +317,34 @@
         <option value="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binarySearch/BinarySearchDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binarySearch/BinarySearchExtend.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/PercentDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/TestInteger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/SkipList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/Number2ChineseUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/IntegerTestDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/ArrayListDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/TimeDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/CompareVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/CompareDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/TijiaoDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/utils/Decrypt.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/DateDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/lockDemo/lockImplimentsBySelf/MyAQSLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/lockDemo/CountDownLatchDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/AnotherDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/TestInteger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/CompareDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/redis/RedisInstance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/redis/RedisDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binaryTreeTraversal/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binaryTreeTraversal/BinaryTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binaryTreeTraversal/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/String/GroupWords.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/List/CheckBrackets.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/List/SingleListNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/List/SingleList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binaryTreeTraversal/LevelTraversal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/ArrayListDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/ThreadLocalDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/countDownLatchDemo/MainDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/ObjectReferenceDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/able/re/Demo/JsonPraseDemo.java" />
       </list>
     </option>
   </component>
@@ -608,9 +399,8 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-6" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -663,6 +453,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -725,17 +517,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="able" type="462c0819:PsiDirectoryNode" />
               <item name="re" type="462c0819:PsiDirectoryNode" />
-              <item name="DataStructureAndAlgorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="able" type="462c0819:PsiDirectoryNode" />
-              <item name="re" type="462c0819:PsiDirectoryNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -747,7 +528,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="able" type="462c0819:PsiDirectoryNode" />
               <item name="re" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk8demo" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -758,8 +539,31 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="able" type="462c0819:PsiDirectoryNode" />
               <item name="re" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk8demo" type="462c0819:PsiDirectoryNode" />
-              <item name="collect" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="able" type="462c0819:PsiDirectoryNode" />
+              <item name="re" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="countDownLatchDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="able" type="462c0819:PsiDirectoryNode" />
+              <item name="re" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadPool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -769,16 +573,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="relyy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="relyy" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -794,82 +588,6 @@
               <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="relyy" type="462c0819:PsiDirectoryNode" />
-              <item name="VO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="relyy" type="462c0819:PsiDirectoryNode" />
-              <item name="VO" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmqTestVo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapping2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="shardingMapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -895,18 +613,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="relyy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -917,7 +629,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="BeanU&#9;PSI&#9;JAVA://org.springframework.beans.BeanUtils&#10;ReflectionUtils&#9;PSI&#9;JAVA://org.springframework.util.ReflectionUtils&#10;DispatcherS&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.dataviews" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="extract.method.default.visibility" value="public" />
   </component>
@@ -961,15 +673,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DateDemo">
-    <configuration name="CompareDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.JsonPraseDemo">
+    <configuration name="CheckBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.able.re.Demo.*" />
+          <option name="PATTERN" value="com.able.re.DataStructureAndAlgorithms.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.able.re.Demo.CompareDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.able.re.DataStructureAndAlgorithms.List.CheckBrackets" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -981,14 +693,14 @@
       <module name="webDemo" />
       <envs />
     </configuration>
-    <configuration name="DateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonPraseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.able.re.Demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.able.re.Demo.DateDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.able.re.Demo.JsonPraseDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1000,14 +712,14 @@
       <module name="webDemo" />
       <envs />
     </configuration>
-    <configuration name="Decrypt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ObjectReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.utils.*" />
+          <option name="PATTERN" value="com.able.re.Demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.utils.Decrypt" />
+      <option name="MAIN_CLASS_NAME" value="com.able.re.Demo.ObjectReferenceDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1019,14 +731,14 @@
       <module name="webDemo" />
       <envs />
     </configuration>
-    <configuration name="TijiaoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SingleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.able.re.Demo.*" />
+          <option name="PATTERN" value="com.able.re.DataStructureAndAlgorithms.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.able.re.Demo.TijiaoDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.able.re.DataStructureAndAlgorithms.List.SingleList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1038,14 +750,14 @@
       <module name="webDemo" />
       <envs />
     </configuration>
-    <configuration name="TimeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadLocalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.able.re.Demo.*" />
+          <option name="PATTERN" value="com.able.re.ThreadDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.able.re.Demo.TimeDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.able.re.ThreadDemo.ThreadLocalDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1279,19 +991,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.webDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TimeDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CompareDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TijiaoDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Decrypt" />
-      <item index="5" class="java.lang.String" itemvalue="Application.DateDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CheckBrackets" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SingleList" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ThreadLocalDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ObjectReferenceDemo" />
+      <item index="5" class="java.lang.String" itemvalue="Application.JsonPraseDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DateDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Decrypt" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TijiaoDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CompareDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TimeDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.JsonPraseDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ObjectReferenceDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ThreadLocalDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SingleList" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CheckBrackets" />
       </list>
     </recent_temporary>
   </component>
@@ -1430,7 +1142,19 @@
       <workItem from="1550219379861" duration="1822000" />
       <workItem from="1550300607699" duration="3257000" />
       <workItem from="1550587627600" duration="224000" />
-      <workItem from="1551086966482" duration="20000" />
+      <workItem from="1551086966482" duration="1917000" />
+      <workItem from="1551092344684" duration="124000" />
+      <workItem from="1551092515772" duration="4353000" />
+      <workItem from="1551141774788" duration="16815000" />
+      <workItem from="1551664128538" duration="11347000" />
+      <workItem from="1551783475643" duration="446000" />
+      <workItem from="1551784082964" duration="6432000" />
+      <workItem from="1552025840523" duration="2058000" />
+      <workItem from="1552039274538" duration="585000" />
+      <workItem from="1553583946813" duration="31215000" />
+      <workItem from="1553827393245" duration="9820000" />
+      <workItem from="1554089414269" duration="4108000" />
+      <workItem from="1554543535264" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="socketDemo">
       <created>1514977715308</created>
@@ -1607,7 +1331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543555658239</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="jdk源码方法测试jdk源码方法测试">
+      <created>1551087007348</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1551087007348</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1643,7 +1374,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="878170000" />
+    <option name="totallyTimeSpent" value="967385000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1655,7 +1386,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-6" y="0" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26068377" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1667,7 +1398,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20779915" sideWeight="0.23150685" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2719017" sideWeight="0.32603937" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.4749596" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1676,65 +1407,26 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22210066" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18294051" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24732906" sideWeight="0.7684932" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2719017" sideWeight="0.6739606" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2996795" sideWeight="0.38538682" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23878205" sideWeight="0.5045045" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26549146" sideWeight="0.14989059" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23397435" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.392779" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2308534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3632385" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16849016" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37636763" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.017628206" sideWeight="0.5361552" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5371622" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26068377" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.50213677" order="14" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25641027" sideWeight="0.4638448" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23397435" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20779915" sideWeight="0.23150685" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.4749596" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37636763" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3632385" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16849016" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.017628206" sideWeight="0.5361552" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18294051" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24198718" sideWeight="0.7684932" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2996795" sideWeight="0.38538682" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23878205" sideWeight="0.5045045" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5371622" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1781,7 +1473,6 @@
     <MESSAGE value="jdk源码方法测试" />
     <MESSAGE value="uml时序图" />
     <MESSAGE value="锁实现" />
-    <MESSAGE value="jdk源码方法测试jdk源码方法测试" />
     <MESSAGE value="rabbitmq" />
     <MESSAGE value="20181026" />
     <MESSAGE value="mybatis自定义类型转换器注册" />
@@ -1789,7 +1480,8 @@
     <MESSAGE value="Sharding-jdbc" />
     <MESSAGE value="sharding-jdbc入门使用" />
     <MESSAGE value="分库分表测试数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="分库分表测试数据库" />
+    <MESSAGE value="jdk源码方法测试jdk源码方法测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdk源码方法测试jdk源码方法测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1808,7 +1500,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/ArrayListDemo.java</url>
-          <line>62</line>
+          <line>63</line>
           <properties />
           <option name="timeStamp" value="83" />
         </line-breakpoint>
@@ -1837,16 +1529,16 @@
           <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/CompareDemo.java</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/ThreadLocalDemo.java</url>
+          <line>56</line>
           <properties />
-          <option name="timeStamp" value="167" />
+          <option name="timeStamp" value="189" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="168" />
+      <option name="time" value="190" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1855,354 +1547,368 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/relyy/shardingMapper/sharding-sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/AnotherDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="792">
+          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/relyy/VO/CourseChangeOpenDto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/TeamStudentOpenDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.4.5.RELEASE/spring-amqp-1.4.5.RELEASE.jar!/org/springframework/amqp/core/Message.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="18" column="67" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.4.5.RELEASE/spring-amqp-1.4.5.RELEASE.jar!/org/springframework/amqp/core/AmqpTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.4.5.RELEASE/spring-amqp-1.4.5.RELEASE-sources.jar!/org/springframework/amqp/core/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.4.5.RELEASE/spring-amqp-1.4.5.RELEASE-sources.jar!/org/springframework/amqp/core/AmqpTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2475">
-          <caret line="87" column="74" lean-forward="false" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8745">
-          <caret line="265" column="30" lean-forward="false" selection-start-line="265" selection-start-column="30" selection-end-line="265" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/rabbitmq/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/rabbitmq/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="50" column="9" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/relyy/VO/rabbitmqTestVo/StudiedExamMqDto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/sort/TestSortDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/relyy/VO/rabbitmqTestVo/StuSetExamTime.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/ArrayDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="264">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/relyy/VO/rabbitmqTestVo/AssignationMakeUpExamVo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/ColleutilsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="12" column="70" lean-forward="false" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-amqp_send.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="60" column="101" lean-forward="false" selection-start-line="60" selection-start-column="101" selection-end-line="60" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/relyy/RabbitMqSendTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1353">
-          <caret line="52" column="33" lean-forward="false" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/relyy/rabbitMqReciever/AssignationMakeUpExamForUserComsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binarySearch/BinarySearchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binarySearch/BinarySearchExtend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73887">
-          <caret line="2300" column="28" lean-forward="false" selection-start-line="2300" selection-start-column="28" selection-end-line="2300" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/PercentDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/TestInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="1947">
+          <caret line="62" column="45" lean-forward="false" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/CompareDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1419">
-          <caret line="43" column="56" lean-forward="false" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
-          <folding />
+        <state relative-caret-position="1320">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-sharding-database.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/application-redis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-          <folding />
+        <state relative-caret-position="825">
+          <caret line="25" column="62" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-sharding.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/redis/RedisInstance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2739">
-          <caret line="83" column="73" lean-forward="false" selection-start-line="83" selection-start-column="73" selection-end-line="83" selection-end-column="73" />
-          <folding />
+        <state relative-caret-position="396">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/relyy/shardingAlgorithm/UserSingleKeyTableShardingAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/redis/RedisDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1023">
+          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/PalindromicSubStringDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binaryTreeTraversal/TreeNode.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3201">
+          <caret line="123" column="20" lean-forward="false" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3960">
+          <caret line="146" column="11" lean-forward="false" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11550">
+          <caret line="384" column="61" lean-forward="false" selection-start-line="384" selection-start-column="61" selection-end-line="384" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binaryTreeTraversal/BinaryTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1749">
+          <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binaryTreeTraversal/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="118" column="48" lean-forward="true" selection-start-line="118" selection-start-column="48" selection-end-line="118" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/relyy/RabbitMqSendTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/rabbitmq/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16962">
+          <caret line="541" column="10" lean-forward="false" selection-start-line="541" selection-start-column="10" selection-end-line="541" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/String/GroupWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1353">
+          <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1419">
+          <caret line="66" column="12" lean-forward="false" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18975">
+          <caret line="620" column="14" lean-forward="false" selection-start-line="620" selection-start-column="14" selection-end-line="620" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/relyy/rabbitMqReciever/AssignationMakeUpExamForUserComsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binarySearch/BinarySearchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binarySearch/BinarySearchExtend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/List/CheckBrackets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/List/SingleList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7293">
+          <caret line="221" column="0" lean-forward="false" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4429#4430#0" expanded="false" />
+            <element signature="e#4469#4470#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14553">
-          <caret line="474" column="16" lean-forward="false" selection-start-line="474" selection-start-column="13" selection-end-line="474" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/SkipList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2343">
-          <caret line="73" column="7" lean-forward="false" selection-start-line="71" selection-start-column="6" selection-end-line="73" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping2/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/shardingMapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="63" lean-forward="false" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        <state relative-caret-position="37389">
+          <caret line="1179" column="0" lean-forward="false" selection-start-line="1179" selection-start-column="0" selection-end-line="1179" selection-end-column="0" />
           <folding>
-            <marker date="1543543633060" expanded="true" signature="589:669" ph="insert into t_user... " />
-            <marker date="1543543633060" expanded="true" signature="741:790" ph="select from t_user" />
-            <marker date="1543543633060" expanded="true" signature="868:1047" ph="select from t_user" />
+            <element signature="e#0#39347#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/shardingMapper/StudentMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binaryTreeTraversal/LevelTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1543493582040" expanded="true" signature="601:681" ph="insert into t_student... " />
-            <marker date="1543493582040" expanded="true" signature="753:805" ph="select from t_student" />
-            <marker date="1543493582040" expanded="true" signature="886:1071" ph="select from t_student" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/MissionDetailMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="38" column="20" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <marker date="1520411559705" expanded="true" signature="1843:1992" ph="select from TBL_MISSION_DETAIL" />
-            <marker date="1520411559705" expanded="true" signature="5285:6995" ph="update TBL_M... " />
-            <marker date="1520411559705" expanded="true" signature="7809:8034" ph="update TBL_M... " />
-            <marker date="1520411559705" expanded="true" signature="8106:8144" ph="SELECT MAX(I... TBL_MISSION_DETAIL" />
-            <marker date="1520411559705" expanded="true" signature="8217:8295" ph="SELECT ID FR... TBL_MISSION_DETAIL" />
-            <marker date="1520411559705" expanded="true" signature="8378:8475" ph="SELECT SUM(W... TBL_MISSION_DETAIL" />
-            <marker date="1520411559705" expanded="true" signature="8589:8708" ph="SELECT ID, O... TBL_MISSION_DETAIL" />
-            <marker date="1520411559705" expanded="true" signature="8804:8968" ph="SELECT DISTI... TBL_MISSION_DETAIL" />
-            <marker date="1520411559705" expanded="true" signature="9143:9467" ph="update TBL_M... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/Number2ChineseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/IntegerTestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="264">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/ArrayListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2211">
-          <caret line="72" column="29" lean-forward="false" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="29" />
+        <state relative-caret-position="957">
+          <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar!/org/apache/commons/lang3/time/DateUtils.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="81" column="55" lean-forward="false" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
+        <state relative-caret-position="14850">
+          <caret line="494" column="48" lean-forward="false" selection-start-line="494" selection-start-column="48" selection-end-line="494" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Date.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18810">
-          <caret line="616" column="0" lean-forward="false" selection-start-line="616" selection-start-column="0" selection-end-line="616" selection-end-column="0" />
+        <state relative-caret-position="1551">
+          <caret line="70" column="22" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4917">
+          <caret line="177" column="34" lean-forward="false" selection-start-line="177" selection-start-column="34" selection-end-line="177" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/TimeDemo.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/DualPivotQuicksort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="24" column="79" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="79" />
+        <state relative-caret-position="2739">
+          <caret line="106" column="16" lean-forward="false" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="1440" column="0" lean-forward="true" selection-start-line="1440" selection-start-column="0" selection-end-line="1440" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.7.4/aspectjweaver-1.7.4.jar!/org/aspectj/weaver/loadtime/JRockitAgent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="66" column="25" lean-forward="false" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/ThreadPool/ExecutorLifeCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/RunDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/RunableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/MyThread2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/MyThread1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22836">
+          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/CompareVo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/ThreadLocalDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-          <folding>
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/CompareDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1221">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/TijiaoDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="14" column="159" lean-forward="false" selection-start-line="14" selection-start-column="159" selection-end-line="14" selection-end-column="159" />
-          <caret line="15" column="159" lean-forward="false" selection-start-line="15" selection-start-column="159" selection-end-line="15" selection-end-column="159" />
-          <caret line="16" column="159" lean-forward="false" selection-start-line="16" selection-start-column="159" selection-end-line="16" selection-end-column="159" />
-          <caret line="17" column="159" lean-forward="false" selection-start-line="17" selection-start-column="159" selection-end-line="17" selection-end-column="159" />
-          <caret line="18" column="159" lean-forward="false" selection-start-line="18" selection-start-column="159" selection-end-line="18" selection-end-column="159" />
-          <caret line="19" column="159" lean-forward="false" selection-start-line="19" selection-start-column="159" selection-end-line="19" selection-end-column="159" />
-          <caret line="20" column="159" lean-forward="false" selection-start-line="20" selection-start-column="159" selection-end-line="20" selection-end-column="159" />
-          <caret line="21" column="159" lean-forward="false" selection-start-line="21" selection-start-column="159" selection-end-line="21" selection-end-column="159" />
-          <caret line="22" column="159" lean-forward="false" selection-start-line="22" selection-start-column="159" selection-end-line="22" selection-end-column="159" />
-          <caret line="23" column="159" lean-forward="false" selection-start-line="23" selection-start-column="159" selection-end-line="23" selection-end-column="159" />
+        <state relative-caret-position="1518">
+          <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/EntityCopy.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/ref/WeakReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+          <folding>
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4356">
+          <caret line="162" column="49" lean-forward="false" selection-start-line="162" selection-start-column="41" selection-end-line="162" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/ThreadDemo/countDownLatchDemo/MainDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/ReferenceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -2210,97 +1916,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/EncryptDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/ObjectReferenceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/Decrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="28" column="71" lean-forward="false" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/DateDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/relyy/VO/QuestionnaireVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/relyy/dao/TestMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/application-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1947">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/relyy/TestBaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/relyy/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/relyy/ShardingJdbcTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="61" column="9" lean-forward="false" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/testMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        <state relative-caret-position="528">
+          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding>
-            <marker date="1540887517892" expanded="true" signature="589:626" ph="SELECT * FRO... TB_USER" />
-            <marker date="1540887517892" expanded="true" signature="725:762" ph="SELECT * FRO... TB_USER" />
-            <marker date="1540887517892" expanded="true" signature="2422:2503" ph="SELECT * FRO... TB_USER" />
-            <marker date="1540887517892" expanded="true" signature="2600:2712" ph="SELECT * FRO... TBL_QUESTIONNAIRE" />
-            <marker date="1540887517892" expanded="true" signature="3626:3672" ph="SELECT * FRO... TBL_QUESTIONNAIRE" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/able/re/Demo/JsonPraseDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

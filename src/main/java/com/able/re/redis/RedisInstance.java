@@ -9,8 +9,8 @@ import redis.clients.jedis.Jedis;
  * @create 2018-03-14
  */
 public class RedisInstance {
-    private static String host = "127.0.0.1";
-    private static int port = 6379;
+    private static String host = "192.168.9.170";
+    private static int port = 19000;
     private static Jedis jedis = new Jedis(host,port);
 
     public static Jedis getJedis(){

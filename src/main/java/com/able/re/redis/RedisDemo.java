@@ -21,9 +21,19 @@ public class RedisDemo {
 //        int port = 6379;
 
         Jedis jedis = RedisInstance.getJedis();
-        String s = "se:9995:419627:170750879";
-        List<String> myqueuekey = jedis.brpop(0, "myqueuekey");
-        System.out.println(myqueuekey.get(1));
+        //String s = "se:9995:419627:170750879";
+        //List<String> myqueuekey = jedis.brpop(0, "myqueuekey");
+        //.out.println(myqueuekey.get(1));
+        Integer score = null;
+        try{
+            jedis.zadd("mytest",score,"1");
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally {
+            if (jedis != null){
+                jedis.close();
+            }
+        }
 
 //        jedis.set(s.getBytes(),"homework".getBytes());
 //        if (jedis.exists(s)){
@@ -38,8 +48,6 @@ public class RedisDemo {
 
         //Pipeline pipeline = jedis.pipelined();
 
-        if (jedis != null){
-            jedis.close();
-        }
+
     }
 }

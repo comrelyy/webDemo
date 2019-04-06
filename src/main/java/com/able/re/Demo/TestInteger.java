@@ -58,5 +58,8 @@ public class TestInteger {
                 System.out.println(fileSizeKB+"KB");
             }
         }
+
+        Integer isRecruitId = -1;
+        System.out.println(isRecruitId == 1);
     }
 }

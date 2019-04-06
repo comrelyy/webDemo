@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 /**
  * $DISCRIPTION
@@ -38,25 +39,30 @@ public class MainDemo {
 
         ExecutorService executorService = Executors.newFixedThreadPool(voDemos.size());
         for (VoDemo voDemo : voDemos) {
-            executorService.execute(new Runnable() {
+            Integer count = 0;
+
+            Future<Integer> submit = executorService.submit(new Runnable() {
                 @Override
                 public void run() {
                     String name = voDemo.getName();
                     voDemo.setId(Integer.parseInt(name));
                     countDownLatch.countDown();
                     System.out.println(countDownLatch.getCount());
-                    try{
+                    try {
                         Thread.sleep(10000);
-                    }catch(Exception e){
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
 
                 }
-            });
+            }, count);
+
         }
 
         try {
+            System.out.println("等待子任务执行完成");
             countDownLatch.await();
+            System.out.println("子任务执行完成");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
