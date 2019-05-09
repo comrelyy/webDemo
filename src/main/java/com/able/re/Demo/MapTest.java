@@ -43,6 +43,8 @@ public class MapTest {
 //            }
 //        }
 
+        LinkedHashMap<String, Object> linkedHashMap = new LinkedHashMap<>();
+        linkedHashMap.putAll(mapTest);
         for (int i = 0; i <100 ; i++) {
             mapTest.put(String.valueOf(i),i);
         }

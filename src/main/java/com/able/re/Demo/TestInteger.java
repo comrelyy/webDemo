@@ -3,6 +3,7 @@ package com.able.re.Demo;
 import org.apache.commons.lang3.StringUtils;
 
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class TestInteger {
@@ -61,5 +62,17 @@ public class TestInteger {
 
         Integer isRecruitId = -1;
         System.out.println(isRecruitId == 1);
+
+
+        Integer todo = 0;
+        Integer num = 4;
+        todo+=num;
+        System.out.println(todo);
+
+        ArrayList<Object> list = new ArrayList<>();
+        list.add(10);
+
+        Integer s = null;
+        System.out.println(s == 1);
     }
 }
