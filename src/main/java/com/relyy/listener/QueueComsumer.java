@@ -1,14 +1,10 @@
 package com.relyy.listener;
 
-import com.able.re.redis.RedisInstance;
-import com.zhihuishu.toolkit.jedis.template.JedisTemplate;
+import com.google.common.collect.Lists;
 import org.apache.commons.collections.CollectionUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
-import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisPool;
 
 import java.util.List;
 
@@ -21,8 +17,8 @@ import java.util.List;
 @Component
 public class QueueComsumer implements ApplicationListener<ContextRefreshedEvent> {
 
-    @Autowired
-    private JedisTemplate jedisTemplate;
+//    @Autowired
+//    private JedisTemplate jedisTemplate;
     @Override
     public void onApplicationEvent(ContextRefreshedEvent event) {
         if(event.getApplicationContext().getParent() == null) {
@@ -40,7 +36,7 @@ public class QueueComsumer implements ApplicationListener<ContextRefreshedEvent>
                 while (true) {
                     try {
 
-                        List<String> myqueuekey = jedisTemplate.brpop(0, "myqueuekey");
+                        List<String> myqueuekey = Lists.newArrayList();//jedisTemplate.brpop(0, "myqueuekey");
                         if (CollectionUtils.isNotEmpty(myqueuekey)) {
                             System.out.println("consumer1消费---------"+myqueuekey.get(1));
                         }
