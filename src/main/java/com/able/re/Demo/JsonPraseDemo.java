@@ -30,6 +30,7 @@ public class JsonPraseDemo {
         System.out.println(string);
         List<Map> maps1 = JSONArray.parseArray(string, Map.class);
         System.out.println(maps1);
+        "courseId".length();
 
     }
 }

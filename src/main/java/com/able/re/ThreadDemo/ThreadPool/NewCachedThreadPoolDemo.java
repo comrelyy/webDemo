@@ -13,6 +13,8 @@ import java.util.concurrent.TimeUnit;
  */
 public class NewCachedThreadPoolDemo {
     public static void main(String[] args) throws InterruptedException {
+
+        int p = Runtime.getRuntime().availableProcessors();
         //ExecutorService threadPool = Executors.newCachedThreadPool();
         ExecutorService threadPool = Executors.newFixedThreadPool(5);
         long l = System.currentTimeMillis();

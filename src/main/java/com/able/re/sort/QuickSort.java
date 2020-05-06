@@ -8,7 +8,7 @@ package com.able.re.sort;
 public class QuickSort {
 
     public static void main(String[] args) {
-            Integer[] arr = {6,1,2,7,9,3,4,5,10,8};
+            Integer[] arr = {1,6,2,7,9,3,4,5,10,8};
             sort(arr,0,arr.length-1);
         for (Integer integer : arr) {
             System.out.println(integer);

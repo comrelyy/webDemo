@@ -7,6 +7,6 @@ public class AspectJAOPDemoTest {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(AspectLogConfiguration.class);
         TargetObject targetObject =  applicationContext.getBean(TargetObject.class);
-        targetObject.div(0,1);
+        targetObject.div(6,1);
     }
 }

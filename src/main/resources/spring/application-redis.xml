@@ -13,27 +13,27 @@
         <!--<property name="blockWhenExhausted" value="true" />-->
     <!--</bean>-->
 
-    <bean id="jedisPool" class="com.zhihuishu.toolkit.jedis.JedisPoolFactory">
-        <constructor-arg index="0">
-            <bean class="redis.clients.jedis.JedisPoolConfig">
-                <property name="maxTotal" value="1000" />
-                <property name="minIdle" value="3" />
-                <property name="maxWaitMillis" value="1000" />
-                <property name="testOnBorrow" value="true" />
-            </bean>
-        </constructor-arg>
-        <!--<constructor-arg index="1" value="http://192.168.70.64:6379" />-->
-        <constructor-arg index="1" value="http://192.168.9.170:19000"/>
-    </bean>
+    <!--<bean id="jedisPool" class="com.zhihuishu.toolkit.jedis.JedisPoolFactory">-->
+        <!--<constructor-arg index="0">-->
+            <!--<bean class="redis.clients.jedis.JedisPoolConfig">-->
+                <!--<property name="maxTotal" value="1000" />-->
+                <!--<property name="minIdle" value="3" />-->
+                <!--<property name="maxWaitMillis" value="1000" />-->
+                <!--<property name="testOnBorrow" value="true" />-->
+            <!--</bean>-->
+        <!--</constructor-arg>-->
+        <!--&lt;!&ndash;<constructor-arg index="1" value="http://192.168.70.64:6379" />&ndash;&gt;-->
+        <!--<constructor-arg index="1" value="http://192.168.9.170:19000"/>-->
+    <!--</bean>-->
 
-    <!-- 配置执行器 -->
-    <bean id="jedisExecutor" class="com.zhihuishu.toolkit.jedis.template.JedisExecutor">
-        <constructor-arg ref="jedisPool" />
-    </bean>
+    <!--&lt;!&ndash; 配置执行器 &ndash;&gt;-->
+    <!--<bean id="jedisExecutor" class="com.zhihuishu.toolkit.jedis.template.JedisExecutor">-->
+        <!--<constructor-arg ref="jedisPool" />-->
+    <!--</bean>-->
 
-    <!-- 配置模板类 -->
-    <bean id="jedisTemplate" class="com.zhihuishu.toolkit.jedis.template.JedisTemplate">
-        <constructor-arg ref="jedisPool" />
-    </bean>
+    <!--&lt;!&ndash; 配置模板类 &ndash;&gt;-->
+    <!--<bean id="jedisTemplate" class="com.zhihuishu.toolkit.jedis.template.JedisTemplate">-->
+        <!--<constructor-arg ref="jedisPool" />-->
+    <!--</bean>-->
 
 </beans>

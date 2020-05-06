@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class TargetObject {
 
     public int div(int a, int b){
-        System.out.println("执行了减法");
+        System.out.println("执行了除法");
         return b/a;
     }
 }

@@ -1,7 +1,5 @@
-package com.able.re.proxy;
+package com.able.re.proxy.cgblib;
 
-import com.able.re.proxy.cgblib.MyCgblibDemo;
-import com.able.re.proxy.cgblib.TargetDemo;
 import org.junit.Test;
 
 public class ProxyTest {
