@@ -16,7 +16,7 @@ public class ApplicationContextDemo {
     public static void main(String[] args) {
         ApplicationContext applicationContext = new FileSystemXmlApplicationContext("classpath:spring/spring-bean.xml");
 
-        Student student = (Student)applicationContext.getBean("student");
+        Student student = applicationContext.getBean("student",Student.class);
         System.out.println(student.toString());
 
 
