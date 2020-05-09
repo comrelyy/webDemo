@@ -2,16 +2,22 @@
 
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
-		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
-        http://www.springframework.org/schema/tool http://www.springframework.org/schema/tool/spring-tool.xsd">
+       xmlns:myalias="http://www.relyy.org/schema/alias"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+        http://www.springframework.org/schema/tool http://www.springframework.org/schema/tool/spring-tool-4.3.xsd
+        http://www.relyy.org/schema/alias http://www.relyy.org/schema/alias.xsd" >
 
         <bean id="student" class="com.able.re.springResource.bean.factorybean.Student">
             <constructor-arg index="0" value="张三"/>
             <constructor-arg index="1" value="3"/>
             <constructor-arg index="2" value="三年二班"/>
         </bean>
+
+        <myalias:alias id="customAlias" c_name="student" c_alias="meluo" />
+
+<!--        <bean id="student2" class="com.able.re.springResource.bean.factorybean.StudentFactoryBean" p:studentInfo="Lily,3,三年二班"/>-->
 
     <!-- =====beanPostProcessor配置begin =====-->
 <!--    <bean id="myBeanPostProcessorOne" class="com.able.re.springResource.bean.beanpostprocessor.MyBeanPostProcessorOne"/>-->
