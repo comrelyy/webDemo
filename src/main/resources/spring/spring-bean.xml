@@ -9,25 +9,61 @@
         http://www.springframework.org/schema/tool http://www.springframework.org/schema/tool/spring-tool-4.3.xsd
         http://www.relyy.org/schema/alias http://www.relyy.org/schema/alias.xsd" >
 
+        <!--构造器注入,循环依赖无法解决-->
         <bean id="student" class="com.able.re.springResource.bean.factorybean.Student">
-            <constructor-arg index="0" value="张三"/>
+<!--            属性指定确定的值-->
+            <constructor-arg index="0" value="张1"/>
             <constructor-arg index="1" value="3"/>
             <constructor-arg index="2" value="三年二班"/>
+<!--            引用的是配置的bean,需要使用如下方式-->
+<!--            <constructor-arg name="age" ref="xxxx" />-->
         </bean>
 
-        <myalias:alias id="customAlias" c_name="student" c_alias="meluo" />
+    <bean id="student2" class="com.able.re.springResource.bean.factorybean.Student">
+<!--        set属性注入，推荐，可以解决单例的循环依赖问题-->
+        <property name="age" value="3"/>
+    </bean>
 
-<!--        <bean id="student2" class="com.able.re.springResource.bean.factorybean.StudentFactoryBean" p:studentInfo="Lily,3,三年二班"/>-->
 
+<!--        <myalias:alias id="customAlias" c_name="student" c_alias="meluo" />-->
+<!--工厂方法注入 构造器-->
+    <bean id="studentFactory" class="com.able.re.springResource.bean.factorybean.StudentFactory"/>
+    <bean id="student3" factory-bean="studentFactory" factory-method="newInstance">
+        <constructor-arg index="0" value="张3"/>
+        <constructor-arg index="1" value="3"/>
+        <constructor-arg index="2" value="三年二班"/>
+    </bean>
+<!-- 静态工厂方法注入 构造器   -->
+    <bean id="student4" class="com.able.re.springResource.bean.factorybean.StudentStaticFactory" factory-method="newInstance">
+        <constructor-arg index="0" value="张4"/>
+        <constructor-arg index="1" value="3"/>
+        <constructor-arg index="2" value="三年二班"/>
+    </bean>
+
+<!--    <bean id="student5" class="com.able.re.springResource.bean.factorybean.StudentFactoryBean" p:studentInfo="张5,3,三年二班"/>-->
+<!--    FactoryBean 用setter注入-->
+    <bean id="student5" class="com.able.re.springResource.bean.factorybean.StudentFactoryBean" >
+        <property name="studentInfo" value="张5,3,三年二班"/>
+    </bean>
+
+    <bean id="father" class="com.able.re.springResource.bean.rootandchild.Father" lazy-init="true" abstract="true" >
+        <property name="name" value="fatherBean"/>
+    </bean>
+
+    <bean id="sun" class="com.able.re.springResource.bean.rootandchild.Sun" parent="father" >
+        <property name="name" value="sunbean"/>
+<!--        <property name="job" value="student"/>-->
+        <property name="hobbit" value="busketball"/>
+    </bean>
     <!-- =====beanPostProcessor配置begin =====-->
 <!--    <bean id="myBeanPostProcessorOne" class="com.able.re.springResource.bean.beanpostprocessor.MyBeanPostProcessorOne"/>-->
 <!--    <bean id="myBeanPostProcessorTwo" class="com.able.re.springResource.bean.beanpostprocessor.MyBeanPostProcessorTwo"/>-->
     <!-- =====beanPostProcessor配置end =====-->
 
     <!-- =====beanFactoryPostProcessor配置begin =====-->
-    <!--注册第一个后置工厂处理器-->
-    <bean id="myBeanFactoryPostProcessorOne" class="com.able.re.springResource.bean.beanpostprocessor.MyBeanFactoryPostProcessorOne"/>
-    <!--注册第二个后置工厂处理器-->
-    <bean id="myBeanFactoryPostProcessorTwo" class="com.able.re.springResource.bean.beanpostprocessor.MyBeanFactoryPostProcessorTwo"/>
+<!--    &lt;!&ndash;注册第一个后置工厂处理器&ndash;&gt;-->
+<!--    <bean id="myBeanFactoryPostProcessorOne" class="com.able.re.springResource.bean.beanpostprocessor.MyBeanFactoryPostProcessorOne"/>-->
+<!--    &lt;!&ndash;注册第二个后置工厂处理器&ndash;&gt;-->
+<!--    <bean id="myBeanFactoryPostProcessorTwo" class="com.able.re.springResource.bean.beanpostprocessor.MyBeanFactoryPostProcessorTwo"/>-->
     <!-- =====beanFactoryPostProcessor配置end =====-->
 </beans>
