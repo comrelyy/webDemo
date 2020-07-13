@@ -3,9 +3,12 @@ package com.able.re.springResource.bean.beanpostprocessor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.MutablePropertyValues;
+import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
+import org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory;
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.core.Ordered;
 
 /**
@@ -18,6 +21,8 @@ public class MyBeanFactoryPostProcessorOne implements BeanFactoryPostProcessor, 
 	@Override
 	public void postProcessBeanFactory(ConfigurableListableBeanFactory configurableListableBeanFactory) throws BeansException {
 		log.info("BeanFactoryPostProcessor第{}次被调用",getOrder());
+		DefaultListableBeanFactory parentBeanFactory = (DefaultListableBeanFactory)configurableListableBeanFactory.getParentBeanFactory();
+		parentBeanFactory.setAllowCircularReferences(false);
 		BeanDefinition bd = configurableListableBeanFactory.getBeanDefinition("student");
 		if (null != bd){
 			log.info("student属性值:"+ bd.getPropertyValues().toString());
