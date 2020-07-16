@@ -50,10 +50,10 @@ public class AlienOrder {
             for (int j = 0; j < Math.max(n1, n2); j++) {
                 Character c1 = j < n1 ? w1.charAt(j) : null;
                 Character c2 = j < n2 ? w2.charAt(j) : null;
-                if (c1 != null && adjListMap.containsKey(c1)){
+                if (c1 != null && !adjListMap.containsKey(c1)){
                     adjListMap.put(c1, Lists.newArrayList());
                 }
-                if (c2 != null && adjListMap.containsKey(c2)){
+                if (c2 != null && !adjListMap.containsKey(c2)){
                     adjListMap.put(c2, Lists.newArrayList());
                 }
 
@@ -72,10 +72,16 @@ public class AlienOrder {
         //记录邻接链表的顶点顺序，倒序之后就是要求的字符串
         Stack<Character> stack = new Stack<>();
 
-        adjListMap.keySet().stream().filter(key -> !visited.contains(key))
-                .forEach(key -> {
-                    topoLogicalSort(adjListMap,key,visited,loop,stack);
-                });
+        for (Character key : adjListMap.keySet()) {
+            if(!visited.contains(key)) {
+                topoLogicalSort(adjListMap, key, visited, loop, stack);
+            }
+        }
+
+
+//                .forEach(key -> {
+//
+//                });
 
         StringBuilder stringBuilder = new StringBuilder();
         while (!stack.isEmpty()){
@@ -86,7 +92,44 @@ public class AlienOrder {
 
     }
 
-    private static void topoLogicalSort(Map<Character, List<Character>> adjListMap, Character key, Set<Character> visited, Set<Character> loop, Stack<Character> stack) {
+    /**
+     * 拓扑排序 深度优先
+     * @param adjListMap 有向图
+     * @param key
+     * @param visited 记录已经访问过的顶点
+     * @param loop 防止有向图中出现环的情况
+     * @param stack 入栈元素必须是已经将和其有关系的顶点都处理完毕了
+     * @return
+     */
+    private static boolean topoLogicalSort(Map<Character, List<Character>> adjListMap, Character key, Set<Character> visited,
+                                        Set<Character> loop, Stack<Character> stack) {
+        visited.add(key);
+        loop.add(key);
+
+        if(adjListMap.containsKey(key)){
+            for (int i = 0; i < adjListMap.get(key).size(); i++) {
+                Character character = adjListMap.get(key).get(i);
+
+                if (loop.contains(character)) {
+                    return false;
+                }
+
+                if (visited.contains(character)) {
+                    if (!topoLogicalSort(adjListMap, character, visited, loop, stack)) {
+                        return false;
+                    }
+                }
+            }
+        }
+
+        loop.remove(key);
+        stack.push(key);
+        return true;
     }
 
+    public static void main(String[] args) {
+       String[] words = {"wrt","wrf","er","ett","rftt"};
+        String orderStr = getOrderStr(words);
+        System.out.println(orderStr);
+    }
 }
