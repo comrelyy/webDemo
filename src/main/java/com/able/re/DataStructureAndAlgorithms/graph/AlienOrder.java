@@ -13,7 +13,7 @@ import java.util.Stack;
 /**
  * 火星词典：
  * 给定已经按照词典排序的顺序的单：
- * [wrt,wrf,er,ett,rftt]   输出字母顺序：wert
+ * [wef,wrt,wrf,er,ett,rftt]   输出字母顺序：wertf
  * [z,x,z] 输出“”
  */
 public class AlienOrder {
@@ -61,6 +61,10 @@ public class AlienOrder {
                     adjListMap.get(c1).add(c2);
                     found = true;
                 }
+
+                if(found){
+                    continue;
+                }
             }
         }
 
@@ -77,11 +81,6 @@ public class AlienOrder {
                 topoLogicalSort(adjListMap, key, visited, loop, stack);
             }
         }
-
-
-//                .forEach(key -> {
-//
-//                });
 
         StringBuilder stringBuilder = new StringBuilder();
         while (!stack.isEmpty()){
@@ -114,7 +113,7 @@ public class AlienOrder {
                     return false;
                 }
 
-                if (visited.contains(character)) {
+                if (!visited.contains(character)) {
                     if (!topoLogicalSort(adjListMap, character, visited, loop, stack)) {
                         return false;
                     }
@@ -128,7 +127,7 @@ public class AlienOrder {
     }
 
     public static void main(String[] args) {
-       String[] words = {"wrt","wrf","er","ett","rftt"};
+       String[] words = {"wef","wrt","wrf","er","ett","rftt"};
         String orderStr = getOrderStr(words);
         System.out.println(orderStr);
     }
