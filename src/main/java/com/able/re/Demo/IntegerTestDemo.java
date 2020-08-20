@@ -17,7 +17,8 @@ public class IntegerTestDemo {
 //
         System.out.println(a.equals(c));
         System.out.println(a.intValue() == c.intValue());
-
+        int i = -1;
+        System.out.println(-1 << 2);
 //        Integer arr[] = {1,2,0,8};
 //        Integer num = 0;
 //        for (Integer integer : arr) {
