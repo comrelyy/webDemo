@@ -4,8 +4,16 @@
 
   <groupId>relyy</groupId>
   <artifactId>webDemo</artifactId>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>netty_action</module>
+    <module>jdkdemo</module>
+    <module>framework_demo</module>
+    <module>utils</module>
+    <module>other_demo</module>
+    <module>web</module>
+  </modules>
 
   <properties>
     <spring.version>5.2.7.RELEASE</spring.version>
@@ -287,11 +295,21 @@
       <!--<artifactId>sharding-jdbc-core-spring-namespace</artifactId>-->
       <!--<version>2.0.3</version>-->
     <!--</dependency>-->
+    <dependency>
+      <groupId>cn.hutool</groupId>
+      <artifactId>hutool-all</artifactId>
+      <version>5.4.2</version>
+    </dependency>
 
     <dependency>
       <groupId>com.dangdang</groupId>
       <artifactId>sharding-jdbc-core</artifactId>
       <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.curator</groupId>
+      <artifactId>curator-recipes</artifactId>
+      <version>2.10.0</version>
     </dependency>
   </dependencies>
 

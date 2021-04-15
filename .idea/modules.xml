@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/framework_demo/framework_demo.iml" filepath="$PROJECT_DIR$/framework_demo/framework_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdkdemo/jdkdemo.iml" filepath="$PROJECT_DIR$/jdkdemo/jdkdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework_demo/mybaties/mybaties.iml" filepath="$PROJECT_DIR$/framework_demo/mybaties/mybaties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty_action/netty_action.iml" filepath="$PROJECT_DIR$/netty_action/netty_action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other_demo/other_demo.iml" filepath="$PROJECT_DIR$/other_demo/other_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework_demo/springboot/springboot.iml" filepath="$PROJECT_DIR$/framework_demo/springboot/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework_demo/springcloud/springcloud.iml" filepath="$PROJECT_DIR$/framework_demo/springcloud/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework_demo/springframework/springframework.iml" filepath="$PROJECT_DIR$/framework_demo/springframework/springframework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
       <module fileurl="file://$PROJECT_DIR$/webDemo.iml" filepath="$PROJECT_DIR$/webDemo.iml" />
     </modules>
   </component>
