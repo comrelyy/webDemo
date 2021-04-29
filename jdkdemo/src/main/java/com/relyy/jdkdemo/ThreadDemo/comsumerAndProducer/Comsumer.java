@@ -1,7 +1,6 @@
 package com.relyy.jdkdemo.ThreadDemo.comsumerAndProducer;
 
 import com.relyy.jdkdemo.Demo.SetDemo;
-import com.utils.RedisKey;
 
 /**
  * $DISCRIPTION
@@ -37,7 +36,7 @@ public class Comsumer implements Runnable {
                 Integer lessonVideoId = userVideoStatistics.getLessonVideoId();
                 String time = userVideoStatistics.getTime();
                 System.out.println("覆盖度----------"+ SetDemo.timeCover2Simple(time));
-                String userVideoStatisticsKey = RedisKey.getUserVideoStatisticsKey(userId, chapterId, lessonId, lessonVideoId);
+                String userVideoStatisticsKey = "";//RedisKey.getUserVideoStatisticsKey(userId, chapterId, lessonId, lessonVideoId);
                 System.out.println("userVideoStatisticsKey----------"+userVideoStatisticsKey);
                 //jedis.set(userVideoStatisticsKey, SetDemo.timeCover2Simple(time));
 

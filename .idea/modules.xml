@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/design_pattern/design_pattern.iml" filepath="$PROJECT_DIR$/design_pattern/design_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework_demo/framework_demo.iml" filepath="$PROJECT_DIR$/framework_demo/framework_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdkdemo/jdkdemo.iml" filepath="$PROJECT_DIR$/jdkdemo/jdkdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework_demo/mybaties/mybaties.iml" filepath="$PROJECT_DIR$/framework_demo/mybaties/mybaties.iml" />

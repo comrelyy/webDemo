@@ -13,6 +13,7 @@
     <module>utils</module>
     <module>other_demo</module>
     <module>web</module>
+      <module>design_pattern</module>
   </modules>
 
   <properties>
