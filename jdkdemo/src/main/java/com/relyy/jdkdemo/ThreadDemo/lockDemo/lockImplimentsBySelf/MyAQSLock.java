@@ -6,7 +6,8 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 
 /**
- * AQS：AbstractQueuedSynchronizer 队列同步器，是一个抽象类，其子类一般会被定义为一个内部类，经典实现是 ReentrantLock类
+ * AQS：AbstractQueuedSynchronizer 队列同步器，是一个抽象类，
+ * 其子类一般会被定义为一个内部类，经典实现是 ReentrantLock类
  *
  * @author cairuirui
  * @create 2018/9/3
