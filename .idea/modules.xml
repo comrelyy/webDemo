@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/algorithms/algorithms.iml" filepath="$PROJECT_DIR$/algorithms/algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_pattern/design_pattern.iml" filepath="$PROJECT_DIR$/design_pattern/design_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework_demo/framework_demo.iml" filepath="$PROJECT_DIR$/framework_demo/framework_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdkdemo/jdkdemo.iml" filepath="$PROJECT_DIR$/jdkdemo/jdkdemo.iml" />
@@ -13,7 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/framework_demo/springframework/springframework.iml" filepath="$PROJECT_DIR$/framework_demo/springframework/springframework.iml" />
       <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webDemo.iml" filepath="$PROJECT_DIR$/webDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/webDemo.iml" filepath="$PROJECT_DIR$/.idea/webDemo.iml" />
     </modules>
   </component>
 </project>

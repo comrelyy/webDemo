@@ -7,11 +7,288 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0ed7e78-be25-4a32-9810-18f4ca75f432" name="Default" comment="job状态机">
-      <change afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/lockDemo/multiLock/ILock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/lockDemo/multiLock/IMultiLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/lockDemo/multiLock/LocalLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/String/PalindromicSubStringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/JoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/schedule/AbstractSchedulerSelfDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/schedule/DriverState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/schedule/ExecutorServiceTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/schedule/ISchedulerSelfDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/schedule/ISchedulerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/schedule/SchedulerLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/schedule/SchedulerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/schedule/SelfDriverMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/schedule/SelfDriverRegisterBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/schedule/SelfDriverTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/relyy/utils/MisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_6_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_6_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_ext_spring_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_core_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_jms_pool_5_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_pool_5_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_kahadb_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_protobuf_activemq_protobuf_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_0_1B_spec_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_transport_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_mqtt_client_mqtt_client_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasypt_jasypt_1_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_logback_extensions_logback_ext_spring_0_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/lockDemo/lockImplimentsBySelf/MyAQSLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/ThreadDemo/lockDemo/lockImplimentsBySelf/MyAQSLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdkdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdkdemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/proxy/cgblib/MyCgblibDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/proxy/cgblib/MyCgblibDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/proxy/cgblib/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/proxy/cgblib/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/proxy/cgblib/TargetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/proxy/cgblib/TargetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/proxy/jdkdynamicproxy/IMyTargetObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/proxy/jdkdynamicproxy/IMyTargetObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/proxy/jdkdynamicproxy/ITargetObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/proxy/jdkdynamicproxy/ITargetObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/proxy/jdkdynamicproxy/ProformanceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/proxy/jdkdynamicproxy/ProformanceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/proxy/jdkdynamicproxy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/proxy/jdkdynamicproxy/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/proxy/jdkdynamicproxy/impl/TargetObjImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/proxy/jdkdynamicproxy/impl/TargetObjImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/AutoGenerateInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/relyy/utils/AutoGenerateInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/ClimbStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/List/CheckBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/List/CheckBrackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/List/SingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/List/SingleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/PalindromicSubStringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/PalindromicSubStringDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/PhilosophersDiningDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/PhilosophersDiningDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/RemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/RemoveZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/RemoveZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/SkipList.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/SkipList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/String/GroupWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/String/GroupWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binarySearch/BinarySearchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/binarySearch/BinarySearchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binarySearch/BinarySearchExtend.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/binarySearch/BinarySearchExtend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binaryTreeTraversal/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/binaryTreeTraversal/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binaryTreeTraversal/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/binaryTreeTraversal/BinaryTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/binaryTreeTraversal/TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/binaryTreeTraversal/TreeTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/graph/AlienOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/graph/AlienOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/graph/MergeArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/graph/MergeArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/removeDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/removeDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/Ehcache/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/other_demo/src/main/java/com/relyy/other/ehcache/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/Mybatis/Demo4Introduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/mybaties/src/main/java/com/relyy/mybatis/Demo4Introduction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/Mybatis/TypeHandler/MyTypeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/mybaties/src/main/java/com/relyy/mybatis/TypeHandler/MyTypeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/Mybatis/TypeHandler/StringArray2StringHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/mybaties/src/main/java/com/relyy/mybatis/TypeHandler/StringArray2StringHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/activemq/JMSConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/other_demo/src/main/java/com/relyy/other/activemq/JMSConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/activemq/JMSProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/other_demo/src/main/java/com/relyy/other/activemq/JMSProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/Observe/ConcreteObserverOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/Observe/ConcreteObserverOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/Observe/ConcreteObserverTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/Observe/ConcreteObserverTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/Observe/ConcreteSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/Observe/ConcreteSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/Observe/ObserveDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/Observe/ObserveDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/Observe/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/Observe/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/Observe/ObserverMessge.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/Observe/ObserverMessge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/Observe/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/Observe/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/bridgepatten/AgvJobStateChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/bridgepatten/AgvJobStateChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/bridgepatten/BridgePattenClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/bridgepatten/BridgePattenClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/bridgepatten/CarryAgvJobStateChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/bridgepatten/CarryAgvJobStateChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/bridgepatten/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/bridgepatten/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/bridgepatten/PickingJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/bridgepatten/PickingJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/bridgepatten/PutAwayJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/bridgepatten/PutAwayJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/bridgepatten/WorkBinAgvJobStateChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/bridgepatten/WorkBinAgvJobStateChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/bridgepatten/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/bridgepatten/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/flyweight/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/flyweight/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/flyweight/ChessPieceUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/flyweight/ChessPieceUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/flyweight/ChessPieceUnitFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/flyweight/ChessPieceUnitFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/prototype/SearchWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/prototype/SearchWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/prototype/SearchWordsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/prototype/SearchWordsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/strategy/ClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/strategy/ClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/strategy/Tire.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/strategy/Tire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/strategy/TireStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/strategy/TireStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/strategy/TireStrategyA.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/strategy/TireStrategyA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/strategy/TireStrategyB.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/strategy/TireStrategyB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/strategy/TireStrategyC.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/strategy/TireStrategyC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/strategy/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/strategy/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/template/AbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/template/AbstractClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/template/TemplateMethodSubB.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/template/TemplateMethodSubB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designMode/template/TepmlateMethodSubA.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/template/TepmlateMethodSubA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designmode/BMWCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/BMWCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designmode/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designmode/FudeCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/FudeCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designmode/abstractfactory/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/abstractfactory/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designmode/factorymethod/BMWFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/factorymethod/BMWFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designmode/factorymethod/FactoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/factorymethod/FactoryMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designmode/factorymethod/FactoryMethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/factorymethod/FactoryMethodDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designmode/factorymethod/FudeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/factorymethod/FudeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designmode/simplefactory/SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/simplefactory/SimpleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/designmode/simplefactory/SimpleFactoryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/relyy/designpattern/simplefactory/SimpleFactoryDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/logger/LoggerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/rabbitmq/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/other_demo/src/main/java/com/relyy/other/rabbitmq/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/rabbitmq/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/other_demo/src/main/java/com/relyy/other/rabbitmq/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/redis/RedisDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/other_demo/src/main/java/com/relyy/other/redis/RedisDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/redis/RedisInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/other_demo/src/main/java/com/relyy/other/redis/RedisInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/sort/HeapSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/sort/HeapSortDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/sort/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/sort/MergeSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/sort/MergeSortDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/sort/OddEvenSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/sort/OddEvenSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/sort/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/sort/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/sort/TestSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/sort/TestSortDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/AOP/AspectJDemo/AspectJAOPDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/AspectJDemo/AspectJAOPDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/AOP/AspectJDemo/AspectJLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/AspectJDemo/AspectJLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/AOP/AspectJDemo/AspectLogConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/AspectJDemo/AspectLogConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/AOP/AspectJDemo/TargetObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/AspectJDemo/TargetObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/CustomBeanParser/Alias.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/CustomBeanParser/Alias.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/CustomBeanParser/CustomBeanDefinitionParper.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/CustomBeanParser/CustomBeanDefinitionParper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/CustomBeanParser/CustomNamespaceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/CustomBeanParser/CustomNamespaceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/annotation/ConfigurationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/annotation/ConfigurationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/ApplicationContextDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/ApplicationContextDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/BeanDefinitionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/BeanDefinitionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/IOCInterface.puml" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/IOCInterface.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/LookAndReplace/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/LookAndReplace/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/LookAndReplace/OriginalDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/LookAndReplace/OriginalDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/LookAndReplace/ReplaceDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/LookAndReplace/ReplaceDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/LookAndReplace/Taxi.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/LookAndReplace/Taxi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/ResourceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/ResourceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/beanRegest.puml" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/beanRegest.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/beanpostprocessor/MyBeanFactoryPostProcessorOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/beanpostprocessor/MyBeanFactoryPostProcessorOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/beanpostprocessor/MyBeanFactoryPostProcessorTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/beanpostprocessor/MyBeanFactoryPostProcessorTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/beanpostprocessor/MyBeanPostProcessorOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/beanpostprocessor/MyBeanPostProcessorOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/beanpostprocessor/MyBeanPostProcessorTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/beanpostprocessor/MyBeanPostProcessorTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/collectionInject/CollectionsInjectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/collectionInject/CollectionsInjectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/factorybean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/factorybean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/factorybean/StudentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/factorybean/StudentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/factorybean/StudentFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/factorybean/StudentFactoryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/factorybean/StudentStaticFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/factorybean/StudentStaticFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/rootandchild/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/rootandchild/Father.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/rootandchild/InnerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/rootandchild/InnerBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/rootandchild/Outter.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/rootandchild/Outter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/bean/rootandchild/Sun.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/bean/rootandchild/Sun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/configuration/MainFactoryBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/configuration/MainFactoryBeanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/factorybean/AppleBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/factorybean/AppleBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/factorybean/AppleFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/factorybean/AppleFactoryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/factorybean/FactoryBeanConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/factorybean/FactoryBeanConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/springResource/resource/MyProtocalResolover.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/resourceDemo/resource/MyProtocalResolover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/able/re/zookeeper/CuratorClientDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kc/july/ColleutilsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdkdemo/src/main/java/com/relyy/jdkdemo/Demo/ColleutilsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kc/july/IdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/relyy/utils/IdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/VO/CourseChangeOpenDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/VO/CourseIdListVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/VO/Json.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/VO/MissionDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/VO/QuestionnaireVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/VO/RecruitIdListVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/VO/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/VO/StudentInfoOpenDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/VO/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/VO/UserVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/VO/rabbitmqTestVo/AssignationMakeUpExamVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/VO/rabbitmqTestVo/StuSetExamTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/VO/rabbitmqTestVo/StudiedExamMqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/controller/NimaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/controller/TestApp_2c.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/controller/TestUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/controller/VoDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/controller/springMVCInit.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/dao/MissionDetailMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/dao/TestMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/filter/FilterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/filter/FilterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/interceptor/InterceptorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/interceptor/InterceptorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/listener/QueueComsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/listener/QueueComsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/listener/QueueComsumer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/java/com/relyy/spring/framework/listener/QueueComsumer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/modBus/ConnectUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/other_demo/src/main/java/com/relyy/other/modBus/ConnectUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/rabbitMqReciever/AssignationMakeUpExamForUserComsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/other_demo/src/main/java/com/relyy/other/rabbitmq/rabbitMqReciever/AssignationMakeUpExamForUserComsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/service/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/service/ITestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/service/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/service/impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/service/impl/TestServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/shardingAlgorithm/StudentSingleKeyDatabaseShardingAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/shardingAlgorithm/StudentSingleKeyTableShardingAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/shardingAlgorithm/UserSingleKeyDatabaseShardingAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/shardingAlgorithm/UserSingleKeyTableShardingAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/shardingMapper/StudentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/shardingMapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/relyy/shardingMapper/sharding-sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/Base64Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/BeanConvert2Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/BeanUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/Decrypt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/relyy/utils/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/RSAUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/RedisKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/RemoteResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/ResultWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/custom-alias.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring.handlers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring.schemas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc_sharding.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/springframework/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/MissionDetailMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/testMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping2/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework_demo/mybaties/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shardingMapper/StudentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shardingMapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/application-mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/application-redis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-amqp_send.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-bean.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-sharding-database.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-sharding.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/SwitchButton.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/switchPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/switchbutton.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/relyy/RabbitMqSendTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/relyy/ShardingJdbcTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/relyy/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/relyy/TestBaseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/relyy/spring/ResourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/relyy/spring/XMLParseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/relyy/spring/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/spring/spring-bean.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +324,9 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="webDemo" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Jsp File" />
@@ -66,8 +339,9 @@
         <option value="spring-beans.schema" />
         <option value="package-info" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -144,11 +418,11 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="BeanU&#9;PSI&#9;JAVA://org.springframework.beans.BeanUtils&#10;ReflectionUtils&#9;PSI&#9;JAVA://org.springframework.util.ReflectionUtils&#10;DispatcherS&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet" />
@@ -156,11 +430,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dataStructureandAlgorithms" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -176,25 +450,25 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\webDemo\netty_action\src\main\java\com\relyy\netty" />
-      <recent name="D:\workspace\webDemo\src\test\java\com\relyy\spring" />
-      <recent name="D:\workspace\webDemo\src\test\resources\spring" />
-      <recent name="D:\workspace\webDemo\src\main\resources\spring" />
-      <recent name="D:\ideaworkspace\webDemo\src\main\resources\spring" />
+      <recent name="G:\idea_workspace\webDemo\framework_demo\springframework\src\main\resources" />
+      <recent name="G:\idea_workspace\webDemo\framework_demo\springframework\src\main\java\com\relyy\spring\framework" />
+      <recent name="G:\idea_workspace\webDemo\framework_demo\springframework\src\main\java\com\relyy\spring\framework\resourceDemo" />
+      <recent name="G:\idea_workspace\webDemo\design_pattern\src\main\java\com\relyy\designpattern" />
+      <recent name="G:\idea_workspace\webDemo\other_demo\src\main\java\com\relyy\other" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.kc.july" />
-      <recent name="com.relyy.jdkdemo.entity" />
-      <recent name="com.relyy.controller" />
-      <recent name="com.able.re.designMode.Observe" />
-      <recent name="com.able.re.springResource.bean.beanpostprocessor" />
+      <recent name="com.relyy.other.rabbitmq.rabbitMqReciever" />
+      <recent name="com.relyy.other.modBus" />
+      <recent name="com.relyy.utils" />
+      <recent name="com.relyy.jdkdemo.Demo" />
+      <recent name="com.relyy.jdkdemo.ThreadDemo" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.relyy.jdkdemo.ThreadDemo.schedule" />
       <recent name="com.relyy.designpattern.state_machine" />
       <recent name="com.able.re.designMode.bridgepatten" />
       <recent name="com.able.re.springResource.bean.rootandchild" />
       <recent name="com.relyy.service.impl" />
-      <recent name="com.able.re.designmode" />
     </key>
   </component>
   <component name="RunManager" selected="Application.HashedWheelTimerTest">
@@ -464,18 +738,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_MODE" value="false" />
     <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
@@ -680,6 +942,14 @@
       <workItem from="1619141669199" duration="655000" />
       <workItem from="1619573677412" duration="18463000" />
       <workItem from="1620265852293" duration="6551000" />
+      <workItem from="1620614241648" duration="7580000" />
+      <workItem from="1620703221000" duration="57000" />
+      <workItem from="1620703298274" duration="11128000" />
+      <workItem from="1620960526951" duration="1410000" />
+      <workItem from="1621580411958" duration="1339000" />
+      <workItem from="1631587640770" duration="3515000" />
+      <workItem from="1631591376426" duration="80000" />
+      <workItem from="1631591485338" duration="525000" />
     </task>
     <task id="LOCAL-00001" summary="socketDemo">
       <created>1514977715308</created>
@@ -939,16 +1209,14 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -967,6 +1235,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="自动生成代码计划" />
@@ -997,98 +1266,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="job状态机" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1620284568467">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="449" y="167" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1631591106551">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1620284568467" />
-    <state x="316" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1619686855986">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="449" y="167" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.864@0.0.1536.864" timestamp="1631591106551" />
+    <state x="378" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1631588909743">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="316" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1619686855986" />
-    <state x="524" y="116" key="#xdebugger.evaluate" timestamp="1618450507699">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="378" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1631588909743" />
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1631589219982">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="524" y="116" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1618450507699" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1619686711047">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1631589219982" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1631591661117">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1619686711047" />
-    <state width="435" height="448" key="DebuggerActiveHint" timestamp="1618450496587">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1631591661117" />
+    <state x="197" y="154" key="SettingsEditor" timestamp="1631591455743">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="435" height="448" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1618450496587" />
-    <state x="542" y="167" key="FileChooserDialogImpl" timestamp="1620265865954">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="197" y="154" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1631591455743" />
+    <state x="356" y="82" key="new project wizard" timestamp="1631588984960">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="542" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620265865954" />
-    <state width="1495" height="255" key="GridCell.Tab.0.bottom" timestamp="1619085692476">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619085692476" />
-    <state width="1495" height="255" key="GridCell.Tab.0.center" timestamp="1619085692475">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="255" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1619085692475" />
-    <state width="1495" height="255" key="GridCell.Tab.0.left" timestamp="1619085692475">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="255" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1619085692475" />
-    <state width="1495" height="255" key="GridCell.Tab.0.right" timestamp="1619085692476">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="255" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1619085692476" />
-    <state width="1495" height="255" key="GridCell.Tab.1.bottom" timestamp="1619085692476">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="255" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619085692476" />
-    <state width="1495" height="255" key="GridCell.Tab.1.center" timestamp="1619085692476">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="255" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1619085692476" />
-    <state width="1495" height="255" key="GridCell.Tab.1.left" timestamp="1619085692476">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="255" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1619085692476" />
-    <state width="1495" height="255" key="GridCell.Tab.1.right" timestamp="1619085692476">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="255" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1619085692476" />
-    <state width="1495" height="255" key="GridCell.Tab.2.bottom" timestamp="1619085692476">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="255" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619085692476" />
-    <state width="1495" height="255" key="GridCell.Tab.2.center" timestamp="1619085692476">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="255" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1619085692476" />
-    <state width="1495" height="255" key="GridCell.Tab.2.left" timestamp="1619085692476">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="255" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1619085692476" />
-    <state width="1495" height="255" key="GridCell.Tab.2.right" timestamp="1619085692476">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="255" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1619085692476" />
-    <state x="376" y="151" key="Vcs.Push.Dialog.v2" timestamp="1620613678863">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1619686713777" />
-    <state x="376" y="151" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1620613678863" />
-    <state x="554" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620613664139">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="532" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1618365552110" />
-    <state x="532" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1619686533955" />
-    <state x="554" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1620613664139" />
-    <state x="2" y="107" key="new project wizard" timestamp="1619581756884">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="2" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1619581756884" />
-    <state x="498" y="178" width="672" height="678" key="search.everywhere.popup" timestamp="1619686832246">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="498" y="178" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1618365477145" />
-    <state x="498" y="178" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1619686832246" />
+    <state x="356" y="82" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1631588984960" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1109,12 +1310,12 @@
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/able/re/sort/HeapSortDemo.java</url>
+          <url>file://$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/sort/HeapSortDemo.java</url>
           <line>31</line>
           <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/able/re/sort/MergeSortDemo.java</url>
+          <url>file://$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/sort/MergeSortDemo.java</url>
           <line>30</line>
           <option name="timeStamp" value="138" />
         </line-breakpoint>
@@ -1124,7 +1325,7 @@
           <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/able/re/DataStructureAndAlgorithms/SkipList.java</url>
+          <url>file://$PROJECT_DIR$/algorithms/src/main/java/com/relyy/algorithm/SkipList.java</url>
           <line>95</line>
           <option name="timeStamp" value="158" />
         </line-breakpoint>

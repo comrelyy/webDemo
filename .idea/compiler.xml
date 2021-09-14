@@ -9,17 +9,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="web" />
         <module name="netty_action" />
+        <module name="algorithms" />
         <module name="springframework" />
         <module name="springboot" />
         <module name="utils" />
-        <module name="design_pattern" />
         <module name="springcloud" />
+        <module name="design_pattern" />
         <module name="other_demo" />
-        <module name="mybaties" />
         <module name="jdkdemo" />
+        <module name="mybaties" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="algorithms" target="1.8" />
       <module name="design_pattern" target="1.8" />
       <module name="flashholdtest" target="1.8" />
       <module name="framework_demo" target="1.8" />
