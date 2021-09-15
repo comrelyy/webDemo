@@ -1,7 +1,0 @@
-@startuml
-HttpServletBean -> HttpServletBean: init()
-HttpServletBean -> FrameworkServlet: initServletBean()
-
-FrameworkServlet -> FrameworkServlet: initWebApplicationContext()
-FrameworkServlet -> DispatcherServlet: initFrameworkServlet()
-@enduml
