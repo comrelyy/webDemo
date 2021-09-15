@@ -1,6 +1,5 @@
 package com.relyy.jdkdemo.proxy.jdkdynamicproxy;
 
-import com.relyy.jdkdemo.proxy.jdkdynamicproxy.impl.TargetObjImpl;
 
 public class Test {
 

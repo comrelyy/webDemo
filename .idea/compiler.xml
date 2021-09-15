@@ -7,21 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud" />
+        <module name="design_pattern" />
+        <module name="mybaties" />
         <module name="web" />
         <module name="netty_action" />
+        <module name="utils" />
         <module name="springframework" />
         <module name="springboot" />
-        <module name="utils" />
-        <module name="design_pattern" />
-        <module name="springcloud" />
         <module name="other_demo" />
-        <module name="mybaties" />
         <module name="jdkdemo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
+    <bytecodeTargetLevel>
       <module name="design_pattern" target="1.8" />
-      <module name="flashholdtest" target="1.8" />
       <module name="framework_demo" target="1.8" />
       <module name="jdkdemo" target="1.8" />
       <module name="mybaties" target="1.8" />
@@ -34,10 +33,5 @@
       <module name="web" target="1.8" />
       <module name="webDemo" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="flashholdtest" options="-parameters" />
-    </option>
   </component>
 </project>
