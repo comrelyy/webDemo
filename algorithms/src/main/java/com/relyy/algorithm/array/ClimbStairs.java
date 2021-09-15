@@ -1,4 +1,4 @@
-package com.relyy.algorithm;
+package com.relyy.algorithm.array;
 
 import java.util.ArrayList;
 import java.util.List;

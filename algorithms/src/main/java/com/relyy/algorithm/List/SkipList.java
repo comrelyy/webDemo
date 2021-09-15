@@ -1,4 +1,4 @@
-package com.relyy.algorithm;
+package com.relyy.algorithm.List;
 
 /**
  * 跳表：给有序链表添加索引，以空间换时间
