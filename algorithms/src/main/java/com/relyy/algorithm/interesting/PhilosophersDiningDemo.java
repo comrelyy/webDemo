@@ -1,4 +1,4 @@
-package com.relyy.algorithm;
+package com.relyy.algorithm.interesting;
 
 /**
  * @Description 哲学家就餐问题
