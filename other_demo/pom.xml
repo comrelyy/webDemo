@@ -12,9 +12,16 @@
     <artifactId>other_demo</artifactId>
 
     <dependencies>
+<!--        测试工具包含 TestingServer,TestingCluster-->
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-test</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+<!--        curator 典型使用场景案例-->
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-examples</artifactId>
             <version>4.0.0</version>
         </dependency>
     </dependencies>
