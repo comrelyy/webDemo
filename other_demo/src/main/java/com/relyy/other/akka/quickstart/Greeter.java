@@ -21,6 +21,23 @@ public class Greeter extends AbstractActor {
         return Props.create(Greeter.class,() -> new Greeter(message,printerActor));
     }
 
+    /**
+     * actor 启动之后在处理其第一条消息之前调用
+     * @throws Exception
+     */
+    @Override
+    public void preStart() throws Exception {
+        super.preStart();
+    }
+
+    /**
+     * actor停止之前调用，在此之后不再处理任何消息
+     * @throws Exception
+     */
+    @Override
+    public void postStop() throws Exception {
+        super.postStop();
+    }
 
     @Override
     public Receive createReceive() {
