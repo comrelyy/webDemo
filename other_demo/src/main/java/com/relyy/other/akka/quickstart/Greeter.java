@@ -2,6 +2,7 @@ package com.relyy.other.akka.quickstart;
 
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
+import akka.actor.ActorSelection;
 import akka.actor.Props;
 
 public class Greeter extends AbstractActor {
@@ -36,9 +37,26 @@ public class Greeter extends AbstractActor {
      */
     @Override
     public void postStop() throws Exception {
+        /*
+        getContext()
+
+        factory methods to create child actors (actorOf)
+        system that the actor belongs to
+        parent supervisor
+        supervised children
+        lifecycle monitoring
+        hotswap behavior stack as described in Become/Unbecome
+         */
+
+        ActorSelection actorSelection = getContext().actorSelection("/root");
+        //getContext().child()
         super.postStop();
     }
 
+    /**
+     * 定义Actor可以处理哪些消息，以及如何处理消息的实现
+     * @return
+     */
     @Override
     public Receive createReceive() {
         return receiveBuilder()
