@@ -1,5 +1,7 @@
 package com.relyy.algorithm.dynamic_programming;
 
+import java.util.Arrays;
+
 /**
  * 给你一个 n x n 的 方形 整数数组 matrix ，请你找出并返回通过 matrix 的下降路径 的 最小和 。
  *
@@ -12,20 +14,30 @@ public class MinFallingPathSum_931 {
 
 
     public static void main(String[] args) {
-        int[][] matrix = {{2,1,3},{6,5,4},{7,8,9}};
+        int[][] matrix = {{100,-42,-46,-41},
+                            {31,97,10,-10},
+                            {-58,-51,82,89},
+                            {51,81,69,-51}};
         int result = solution(matrix);
         System.out.println(result);
     }
 
+    static private int[][] memo;
     private static int solution(int[][] matrix) {
         if (matrix.length == 1) {
             return matrix[0][0];
+        }
+
+        memo = new int[matrix.length][matrix.length];
+        for (int i = 0; i < matrix.length; i++) {
+            Arrays.fill(memo[i],9999);
         }
 
         //计算matrix[][]最小路径和就是需要遍历j
         int dbResult = Integer.MAX_VALUE;
         //定义db函数
         for (int j = 0 ; j < matrix.length; j++) {
+            System.out.println(db(matrix, matrix.length - 1, j));
             dbResult = Math.min(db(matrix, matrix.length-1, j),dbResult);
         }
         return dbResult;
@@ -39,19 +51,25 @@ public class MinFallingPathSum_931 {
      * @return
      */
     private static int db(int[][] matrix, int i, int j) {
-        if (j >= matrix.length) return 9999;
+        if (j >= matrix.length || j < 0 ) return 9999;
+
+        if (memo[i][j] != 9999){
+            return memo[i][j];
+        }
+
         if (i == 0){
+            memo[i][j] = matrix[0][j];
             return matrix[0][j];
         }
 
-        if (j == 0){
-            return matrix[i][j] + db(matrix,i - 1,j);
-        }
+//        if (j == 0){
+//            return matrix[i][j] + db(matrix,i - 1,j);
+//        }
+        memo[i][j] = Math.min(matrix[i][j] + Math.min(Math.min(db(matrix, i - 1, j-1),
+                db(matrix, i - 1, j)),
+                db(matrix,i-1,j+1)),memo[i][j]);
 
-
-        return matrix[i][j] + Math.min(Math.min(db(matrix, i - 1, j-1),
-                                        db(matrix, i - 1, j)),
-                                        db(matrix,i-1,j+1));
+        return memo[i][j];
 
 
     }
