@@ -19,6 +19,7 @@
 
   <properties>
     <spring.version>5.2.7.RELEASE</spring.version>
+    <akka.version>2.5.22</akka.version>
   </properties>
   <dependencies>
     <!--spring-frameWork-->
@@ -328,6 +329,31 @@
         </exclusion>
       </exclusions>
       <version>5.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-actor_2.12</artifactId>
+      <version>${akka.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-stream_2.12</artifactId>
+      <version>${akka.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-remote_2.12</artifactId>
+      <version>${akka.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-camel_2.12</artifactId>
+      <version>${akka.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-slf4j_2.12</artifactId>
+      <version>${akka.version}</version>
     </dependency>
   </dependencies>
 
