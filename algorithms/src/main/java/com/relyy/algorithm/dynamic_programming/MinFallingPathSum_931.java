@@ -8,6 +8,10 @@ import java.util.Arrays;
  * 下降路径 可以从第一行中的任何元素开始，并从每一行中选择一个元素。
  * 在下一行选择的元素和当前行所选元素最多相隔一列（即位于正下方或者沿对角线向左或者向右的第一个元素）。
  * 具体来说，位置 (row, col) 的下一个元素应当是 (row + 1, col - 1)、(row + 1, col) 或者 (row + 1, col + 1)
+ * 其中 0<n<=100 的整数
+ *
+ *   -100<=matrix[row][col]<=100
+ *
  *
  */
 public class MinFallingPathSum_931 {
@@ -30,7 +34,7 @@ public class MinFallingPathSum_931 {
 
         memo = new int[matrix.length][matrix.length];
         for (int i = 0; i < matrix.length; i++) {
-            Arrays.fill(memo[i],9999);
+            Arrays.fill(memo[i],99999);
         }
 
         //计算matrix[][]最小路径和就是需要遍历j
@@ -51,9 +55,9 @@ public class MinFallingPathSum_931 {
      * @return
      */
     private static int db(int[][] matrix, int i, int j) {
-        if (j >= matrix.length || j < 0 ) return 9999;
+        if (j >= matrix.length || j < 0 ) return 66666;
 
-        if (memo[i][j] != 9999){
+        if (memo[i][j] != 99999){
             return memo[i][j];
         }
 
