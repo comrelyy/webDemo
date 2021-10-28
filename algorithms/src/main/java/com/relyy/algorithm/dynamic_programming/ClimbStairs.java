@@ -1,4 +1,4 @@
-package com.relyy.algorithm.array;
+package com.relyy.algorithm.dynamic_programming;
 
 import java.util.ArrayList;
 import java.util.List;
