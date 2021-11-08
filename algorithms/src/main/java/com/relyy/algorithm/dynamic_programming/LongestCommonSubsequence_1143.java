@@ -18,7 +18,7 @@ import java.util.Arrays;
 public class LongestCommonSubsequence_1143 {
 
 	public static void main(String[] args) {
-		String text1 = "oxcpqrsvwf",text2 = "shmtulqrypy";
+		String text1 = "delete",text2 = "leet";
 		int longest = dpSolution(text1,text2);
 		System.out.println(longest);
 	}
@@ -88,7 +88,7 @@ public class LongestCommonSubsequence_1143 {
 		int n = text2.length();
 
 		int[][] dp = new int[m+1][n+1];
-		for (int i = 0; i < m; i++) {
+		for (int i = 0; i <= m; i++) {
 			Arrays.fill(dp[i],0);
 		}
 
@@ -102,11 +102,8 @@ public class LongestCommonSubsequence_1143 {
 				}else {
 					dp[i][j] = Math.max(dp[i][j-1],dp[i-1][j]);
  				}
-
 			}
-
 		}
-
 		return dp[m][n];
 	}
 
