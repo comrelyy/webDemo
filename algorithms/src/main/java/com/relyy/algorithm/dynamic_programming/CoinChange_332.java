@@ -10,10 +10,11 @@ import java.util.Arrays;
 public class CoinChange_332 {
 
     public static void main(String[] args) {
-        int[] coins = {2};
-        int amount = 3;
+        int[] coins = {5,3};
+        int amount = 11;
         int coinQuantity = solution(coins,amount);
         System.out.println(coinQuantity);
+        System.out.println(greedSolution(coins, amount, 0));
     }
 
     //无备忘录/dbTable
@@ -74,5 +75,64 @@ public class CoinChange_332 {
             }
         }
         return db[amount]== amount+1 ? -1 : db[amount];
+    }
+
+    /**
+     * 贪心算法+回溯
+     */
+    public static int greedSolution(int[] coins, int amount,int index){
+        int minCount = Integer.MAX_VALUE;
+        int valueCount = coins.length;
+
+        if (index == valueCount){
+            return Math.min(minCount,getMinCoinCountOfValue(amount,coins,0));
+        }
+        for (int i = index; i < valueCount; i++) {
+
+            //为啥交换顺序？
+            int t = coins[index];
+            coins[index] = coins[i];
+            coins[i] = t;
+
+            // 这个递归的作用
+            minCount = Math.min(minCount,greedSolution(coins,amount,index + 1));
+
+            //再次交换
+            t = coins[index];
+            coins[index] = coins[i];
+            coins[i] = t;
+        }
+
+        return minCount;
+    }
+
+    private static int getMinCoinCountOfValue(int amount, int[] coins, int index) {
+        int valueCount = coins.length;
+        if (index == valueCount){
+            return Integer.MAX_VALUE;
+        }
+
+        int minResult = Integer.MAX_VALUE;
+        int currentValue = coins[index];
+        int maxCount = amount / currentValue;
+
+        for (int i = maxCount; i >= 0; i--) {
+            int rest = amount - i * currentValue;
+
+            if (rest == 0) {
+                minResult = Math.min(minResult, i);
+                break;
+            }
+
+            int restCount = getMinCoinCountOfValue(rest, coins, index + 1);
+
+            if (restCount == Integer.MAX_VALUE) {
+                if (i == 0){break;}
+                continue;
+            }
+
+            minResult = Math.min(minResult,i + restCount);
+        }
+        return minResult;
     }
 }
