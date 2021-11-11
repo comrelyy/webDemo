@@ -23,9 +23,9 @@ public class TreeTraversal {
         tree.addNode(8);
         tree.addNode(9);
         levelTraversal(tree.rootNode);
-        //preTraversal(tree.rootNode);
-        //middleTraversal(tree.rootNode);
-        //postTraversal(tree.rootNode);
+        preTraversal(tree.rootNode);
+        middleTraversal(tree.rootNode);
+        postTraversal(tree.rootNode);
 
         //recursionPre(tree.rootNode);
         //recursionMid(tree.rootNode);
