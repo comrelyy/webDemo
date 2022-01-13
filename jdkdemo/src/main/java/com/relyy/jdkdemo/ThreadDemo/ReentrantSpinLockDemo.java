@@ -13,6 +13,8 @@ public class ReentrantSpinLockDemo {
 
 	private int count = 0;
 
+
+
 	public void lock(){
 		Thread t = Thread.currentThread();
 		if (t == owner.get()) {
