@@ -1,6 +1,6 @@
 package com.relyy.spring.framework.resourceDemo.bean;
 
-import com.able.re.springResource.annotation.ConfigurationDemo;
+import com.relyy.spring.framework.resourceDemo.annotation.ConfigurationDemo;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

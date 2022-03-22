@@ -1,6 +1,5 @@
 package com.relyy.spring.framework.resourceDemo.bean;
 
-import com.relyy.service.ITestService;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.core.io.ClassPathResource;
@@ -17,8 +16,8 @@ public class ResourceDemo {
         DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
         reader.loadBeanDefinitions(resource);
-        ITestService testService = (ITestService)factory.getBean("testService");
-        testService.printMsg();
+//        ITestService testService = (ITestService)factory.getBean("testService");
+//        testService.printMsg();
 
     }
 }

@@ -1,6 +1,6 @@
 package com.relyy.spring.framework.resourceDemo.bean.beanpostprocessor;
 
-import com.able.re.springResource.bean.factorybean.Student;
+import com.relyy.spring.framework.resourceDemo.bean.factorybean.Student;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

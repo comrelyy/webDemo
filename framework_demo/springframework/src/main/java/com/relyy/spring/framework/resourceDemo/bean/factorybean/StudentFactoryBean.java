@@ -2,13 +2,15 @@ package com.relyy.spring.framework.resourceDemo.bean.factorybean;
 
 import org.springframework.beans.factory.FactoryBean;
 import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.stereotype.Component;
 
 /**
  * @Description
  * @Created by cairuirui
  * @Date 2020/4/28
  */
-@Configurable
+//@Configurable
+@Component
 public class StudentFactoryBean implements FactoryBean<Student> {
 
 	private String studentInfo;
