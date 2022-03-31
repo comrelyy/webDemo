@@ -19,7 +19,7 @@
   </modules>
 
   <properties>
-    <spring.version>5.2.7.RELEASE</spring.version>
+    <spring.version>5.3.18</spring.version>
     <akka.version>2.5.22</akka.version>
   </properties>
   <dependencies>
